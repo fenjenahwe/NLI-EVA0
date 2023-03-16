@@ -1,0 +1,53 @@
+version: "3.1"
+
+stories:
+  - story: happy path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_great
+      - action: utter_happy
+
+  - story: sad path 1
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_unhappy
+      - action: utter_cheer_up
+      - action: utter_did_that_help
+      - intent: affirm
+      - action: utter_happy
+
+  - story: sad path 2
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_unhappy
+      - action: utter_cheer_up
+      - action: utter_did_that_help
+      - intent: deny
+      - action: utter_goodbye
+
+  - story: ask about teacher
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: confirm_exists
+      - action: action_check_existence
+
+  - story: ask about lab
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: find_number
+      - action: action_lab_info
+
+  - story: ask about the number of groups in the department
+    steps:
+      - intent: get_number_of_groups
+      - action: utter_number_of_groups
+
+  - story: ask which groups are part of the department
+    steps:
+      - intent: get_all_groups
+      - action: utter_all_groups

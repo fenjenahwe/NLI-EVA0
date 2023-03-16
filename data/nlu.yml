@@ -1,0 +1,137 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
+
+  - intent: goodbye
+    examples: |
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
+
+  - intent: affirm
+    examples: |
+      - yes
+      - y
+      - indeed
+      - of course
+      - that sounds good
+      - correct
+
+  - intent: deny
+    examples: |
+      - no
+      - n
+      - never
+      - I don't think so
+      - don't like that
+      - no way
+      - not really
+
+  - intent: mood_great
+    examples: |
+      - perfect
+      - great
+      - amazing
+      - feeling like a king
+      - wonderful
+      - I am feeling very good
+      - I am great
+      - I am amazing
+      - I am going to save the world
+      - super stoked
+      - extremely good
+      - so so perfect
+      - so good
+      - so perfect
+
+  - intent: mood_unhappy
+    examples: |
+      - my day was horrible
+      - I am sad
+      - I don't feel very well
+      - I am disappointed
+      - super sad
+      - I'm so sad
+      - sad
+      - very sad
+      - unhappy
+      - not good
+      - not very good
+      - extremly sad
+      - so saad
+      - so sad
+
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
+
+  - intent: get_number_of_groups
+    examples: |
+      - how many groups are in this department?
+      - I would like to know how many different groups I can find here.
+      - Tell me about the split of this department.
+
+  - intent: get_all_groups
+    examples: |
+      - Which groups can I find here?
+      - Please give me all the groups in this department.
+      - What are the topics being worked on in this department?
+      - what are the groups in this department?
+
+  - intent: confirm_exists
+    examples: |
+      - is [JORGE](teacher_name) a teacher in this department?
+      - does [ANDERS](teacher_name) teach here?
+      - does [JORDI](teacher_name) have an office here?
+      - is [JEROME](teacher_name) teaching here?
+      - is [MARIUS](teacher_name) a part of the staff?
+      - tell me more about [MARIA](teacher_name).
+      - Where can I find [GERGELY](teacher_name)?
+      - Does [VINCENC](teacher_name) belong to the [AI&ML](group_name)?
+      - is the [AI&ML: Artificial Intelligence and Machine Learning group](group_name) in this department?
+      - is there a [WN: Wireless Networking Group](group_name) here?
+      - can I find the [Computational Neuroscience group](group_name)?
+      - is there a [AI&ML lab](group_name) here?
+      - is there a [Wireless Networking Group](group_name) group in DTIC?
+      - does DTIC have a [natural language processing group](group_name)?
+      - does the DTIC have a [Image Processing lab](group_name)?
+      - Where can I find [JORGE](teacher_name)?
+      - What's the office number of [ALBERT](teacher_name)?
+
+  - intent: find_number
+    examples: |
+      - how many people are in [Ai&ML](group_name) lab?
+      - how many people are in [Ai&ML](group_name) group?
+      - how many researchers are in [Ai&ML](group_name) lab?
+      - how many professors are in [Ai&ML](group_name) lab?
+      - what is the strength of [Ai&ML](group_name) lab?
+      - what is the strength of [Ai&ML](group_name) group?
+      - how many researchers are in [Ai&ML](group_name) group?
+      - how many professors are in [Ai&ML](group_name) group?
+      - how many people work in the [Ai&ML](group_name) group?
+      - how many people are in [Ai&ML](group_name)?

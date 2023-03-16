@@ -1,0 +1,22 @@
+AI&ML: Artificial Intelligence and Machine Learning group
+BERG Biomedical Electronics Research Group
+CMTECH: Cognitive Media Technologies Group
+Computational Neuroscience
+IP4EC: Image processing for enhanced cinematography
+IPG: Image Processing Group
+ITC: Information Theory and Coding Group
+ITG: Interactive Technologies Group
+MTG: Music Technology Group
+PHONOS
+Natural Language Processing
+NETS Network Technologies and Strategies Group
+NTSA: Nonlinear Time Series Analysis Group
+Physense: Sensing in Physiology and Biomedicine Group
+Research Service
+SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems
+TALN: Natural Language Processing
+TIDE: Interactive & Distributed Technologies for Education
+UBICALAB: Ubiquitous Computing Applications Lab
+UGA TIC
+WN: Wireless Networking Group
+WSSC: Web Science and Social Computing

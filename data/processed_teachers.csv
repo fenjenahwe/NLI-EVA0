@@ -1,0 +1,231 @@
+Id,First name,Surname 1,Surname 2,Surname,Office number,Group belonging,AI&ML,BERG,CMTECH,Computational Neuroscience,IP4EC,IPG,ITC,ITG,MTG,PHONOS,Natural Language Processing,NETS,NTSA,Physense,Research Service,SIMBIOsys,TALN,TIDE,UBICALAB,UGA TIC,WN,WSSC,Full name
+0,Jorge,Lobo,,Lobo ,55110,AI&ML: Artificial Intelligence and Machine Learning group,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jorge Lobo
+1,Jerome,Gasparrini,Marco,Gasparrini Marco,55130,AI&ML: Artificial Intelligence and Machine Learning group,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jerome Gasparrini Marco
+2,Vicente,Gomez,Cerda,Gomez Cerda,55130,AI&ML: Artificial Intelligence and Machine Learning group,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Vicente Gomez Cerda
+3,Anders,Jonsson,,Jonsson ,55130,AI&ML: Artificial Intelligence and Machine Learning group,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Anders Jonsson
+4,Gergely,Neu,,Neu ,55130,AI&ML: Artificial Intelligence and Machine Learning group,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gergely Neu
+5,Marti,Sanchez,Fibla,Sanchez Fibla,55130,AI&ML: Artificial Intelligence and Machine Learning group,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Marti Sanchez Fibla
+6,Victor,Dalmau,Lloret,Dalmau Lloret,55200,AI&ML: Artificial Intelligence and Machine Learning group,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Victor Dalmau Lloret
+7,Vladimir,Estivill,Castro,Estivill Castro,55201,AI&ML: Artificial Intelligence and Machine Learning group,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Vladimir Estivill Castro
+8,Pablo,Aragon,Asenjo,Aragon Asenjo,55210,AI&ML: Artificial Intelligence and Machine Learning group,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Pablo Aragon Asenjo
+9,Joan,Bas,Serrano,Bas Serrano,55210,AI&ML: Artificial Intelligence and Machine Learning group,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Joan Bas Serrano
+10,Silvia,Butti,,Butti ,55215,AI&ML: Artificial Intelligence and Machine Learning group,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Silvia Butti
+11,Iuliia,Olkhovskaia,,Olkhovskaia ,55217,AI&ML: Artificial Intelligence and Machine Learning group,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Iuliia Olkhovskaia
+12,Gaston,Rozado,Nicolas,Rozado Nicolas,55217,AI&ML: Artificial Intelligence and Machine Learning group,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gaston Rozado Nicolas
+13,Lorenzo,Steccanella,,Steccanella ,55217,AI&ML: Artificial Intelligence and Machine Learning group,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Lorenzo Steccanella
+14,Damien,Allonsius,,Allonsius ,55219,AI&ML: Artificial Intelligence and Machine Learning group,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Damien Allonsius
+15,Berkay,Demirel,,Demirel ,55219,AI&ML: Artificial Intelligence and Machine Learning group,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Berkay Demirel
+16,Ana,Gonzalez,Suarez,Gonzalez Suarez,51008,BERG: Biomedical Electronics Research Group,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ana Gonzalez Suarez
+17,Javier,Aguirre,Olcoz,Aguirre Olcoz,51014,BERG: Biomedical Electronics Research Group,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Javier Aguirre Olcoz
+18,Quim,Castellvi,,Castellvi ,51014,BERG: Biomedical Electronics Research Group,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Quim Castellvi
+19,Albert,Comerma,Montells,Comerma Montells,51014,BERG: Biomedical Electronics Research Group,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Albert Comerma Montells
+20,Tomás,Garcia,Sanchez,Garcia Sanchez,51014,BERG: Biomedical Electronics Research Group,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Tomás Garcia Sanchez
+21,Aracelys,Garcia,Moreno,Garcia Moreno,51015,BERG: Biomedical Electronics Research Group,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Aracelys Garcia Moreno
+22,Laura,Becerra,Fajardo,Becerra Fajardo,51017,BERG: Biomedical Electronics Research Group,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Laura Becerra Fajardo
+23,Ahmed Fayez Saad Mohamed Eladly,Eladly,,Eladly ,51017,BERG: Biomedical Electronics Research Group,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ahmed Fayez Saad Mohamed Eladly Eladly
+24,Borja,Mercadal,Cavaller,Mercadal Cavaller,51017,BERG: Biomedical Electronics Research Group,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Borja Mercadal Cavaller
+25,Jesus,Minguillon,Campos,Minguillon Campos,51017,BERG: Biomedical Electronics Research Group,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jesus Minguillon Campos
+26,Marc,Tudela,Pi,Tudela Pi,51017,BERG: Biomedical Electronics Research Group,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Marc Tudela Pi
+27,Guillermo,Jimenez,Perez,Jimenez Perez,55119,BERG: Biomedical Electronics Research Group,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Guillermo Jimenez Perez
+28,Rocio,Lopez,Velazco,Lopez Velazco,55119,BERG: Biomedical Electronics Research Group,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Rocio Lopez Velazco
+29,Enric,Perera I Bel,,Perera I Bel ,55119,BERG: Biomedical Electronics Research Group,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Enric Perera I Bel
+30,Antonio,Ivorra,Cano,Ivorra Cano,51017,BERG: Biomedical Electronics Research Group,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Antonio Ivorra Cano
+31,Dinyar,Arsiwalla,Xerxes,Arsiwalla Xerxes,51100,CMTECH: Cognitive Media Technologies Group,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Dinyar Arsiwalla Xerxes
+32,Riccardo,Zucca,,Zucca ,51100,CMTECH: Cognitive Media Technologies Group,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Riccardo Zucca
+33,Ciera,Crowell,,Crowell ,51107,CMTECH: Cognitive Media Technologies Group,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ciera Crowell
+34,Laura,Malinverni,,Malinverni ,51107,CMTECH: Cognitive Media Technologies Group,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Laura Malinverni
+35,Joan,Mora,Guiard,Mora Guiard,51107,CMTECH: Cognitive Media Technologies Group,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Joan Mora Guiard
+36,Marie-Monique,Schaper,,Schaper ,51107,CMTECH: Cognitive Media Technologies Group,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Marie-Monique Schaper
+37,Decky,Latif,,Latif ,55108,CMTECH: Cognitive Media Technologies Group,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Decky Latif
+38,Oriol,Martinez,Pujol,Martinez Pujol,55108,CMTECH: Cognitive Media Technologies Group,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Oriol Martinez Pujol
+39,Xavier,Binefa,Valls,Binefa Valls,55122,CMTECH: Cognitive Media Technologies Group,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Xavier Binefa Valls
+40,Adriana,Fernandez,Lopez,Fernandez Lopez,55124,CMTECH: Cognitive Media Technologies Group,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Adriana Fernandez Lopez
+41,Gerald,Hahn,,Hahn ,55124,CMTECH: Cognitive Media Technologies Group,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gerald Hahn
+42,Maria De Araceli,Morales,Muñoz,Morales Muñoz,55124,CMTECH: Cognitive Media Technologies Group,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Maria De Araceli Morales Muñoz
+43,Mateo,Sukno,Federico,Sukno Federico,55124,CMTECH: Cognitive Media Technologies Group,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Mateo Sukno Federico
+44,Narcis,Pares,Burgues,Pares Burgues,55220,CMTECH: Cognitive Media Technologies Group,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Narcis Pares Burgues
+45,Batuhan,Sayis,,Sayis ,55312,CMTECH: Cognitive Media Technologies Group / MTG: Music Technology Group,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Batuhan Sayis
+46,Ernest,Montbrió,Fairen,Montbrió Fairen,55422,Computational Neuroscience,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ernest Montbrió Fairen
+47,Marcelo Jose,Bertalmio,Barate,Bertalmio Barate,55203,IP4EC: Image processing for enhanced cinematography,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Marcelo Jose Bertalmio Barate
+48,Dalton,Canham,Trevor,Canham Trevor,55205,IP4EC: Image processing for enhanced cinematography,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Dalton Canham Trevor
+49,Praveen,Cyriac,,Cyriac ,55205,IP4EC: Image processing for enhanced cinematography,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Praveen Cyriac
+50,Raquel,Gil,Rodriguez,Gil Rodriguez,55205,IP4EC: Image processing for enhanced cinematography,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Raquel Gil Rodriguez
+51,Alexander,Gomez,Villa,Gomez Villa,55205,IP4EC: Image processing for enhanced cinematography,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Alexander Gomez Villa
+52,Itziar,Zabaleta,Razquin,Zabaleta Razquin,55205,IP4EC: Image processing for enhanced cinematography,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Itziar Zabaleta Razquin
+53,Adrian,Martin,Fernandez,Martin Fernandez,55221,IP4EC: Image processing for enhanced cinematography,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Adrian Martin Fernandez
+54,Adrià,Arbues,Sangüesa,Arbues Sangüesa,55116,IPG: Image Processing Group,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Adrià Arbues Sangüesa
+55,Adrian Fernando,Ponce,Alvarez,Ponce Alvarez,55116,IPG: Image Processing Group,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Adrian Fernando Ponce Alvarez
+56,Patricia,Vitoria,Carrera,Vitoria Carrera,55116,IPG: Image Processing Group,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Patricia Vitoria Carrera
+57,Coloma Maria,Ballester,Nicolau,Ballester Nicolau,55118,IPG: Image Processing Group,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Coloma Maria Ballester Nicolau
+58,Gloria,Haro,Ortega,Haro Ortega,55118,IPG: Image Processing Group,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gloria Haro Ortega
+59,Lara,Raad,Cisa,Raad Cisa,55120,IPG: Image Processing Group,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Lara Raad Cisa
+60,Juan Francisco,Garamendi,Bragado,Garamendi Bragado,55424,IPG: Image Processing Group,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Juan Francisco Garamendi Bragado
+61,Juan Felipe,Montesinos,Garcia,Montesinos Garcia,55120,IPG: Image Processing Group / MTG: Music Technology Group,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Juan Felipe Montesinos Garcia
+62,Venkatesh,Shenoy,Kadandale,Shenoy Kadandale,55120,IPG: Image Processing Group / MTG: Music Technology Group,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Venkatesh Shenoy Kadandale
+63,Olga,Slizovskaia,,Slizovskaia ,55120,IPG: Image Processing Group / MTG: Music Technology Group,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Olga Slizovskaia
+64,Josep,Font,Segura,Font Segura,55204,ITC: Information Theory and Coding Group,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Josep Font Segura
+65,Alfonso,Martinez,Vicente,Martinez Vicente,55204,ITC: Information Theory and Coding Group,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Alfonso Martinez Vicente
+66,Ivano,Colombaro,,Colombaro ,55206,ITC: Information Theory and Coding Group,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ivano Colombaro
+67,Arezou,Rezazadeh,,Rezazadeh ,55206,ITC: Information Theory and Coding Group,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Arezou Rezazadeh
+68,Sergio,Barrachina,Muñoz,Barrachina Muñoz,55208,ITC: Information Theory and Coding Group,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Sergio Barrachina Muñoz
+69,Albert,Guillen,Fabregas,Guillen Fabregas,55222,ITC: Information Theory and Coding Group,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Albert Guillen Fabregas
+70,Sebastián Roberto,Marichal,Baraibar,Marichal Baraibar,55102,ITG: Interactive Technologies Group,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Sebastián Roberto Marichal Baraibar
+71,Javier,Agenjo,Asensio,Agenjo Asensio,55112,ITG: Interactive Technologies Group,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Javier Agenjo Asensio
+72,Irum,Baseer,,Baseer ,55112,ITG: Interactive Technologies Group,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Irum Baseer
+73,Maria,Bosser,Carenys,Bosser Carenys,55112,ITG: Interactive Technologies Group,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Maria Bosser Carenys
+74,Beatriz,Cabrero,Daniel,Cabrero Daniel,55112,ITG: Interactive Technologies Group,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Beatriz Cabrero Daniel
+75,Joaquim,Colas,Alvarez,Colas Alvarez,55112,ITG: Interactive Technologies Group,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Joaquim Colas Alvarez
+76,Jorge,Marques,Ricardo,Marques Ricardo,55112,ITG: Interactive Technologies Group,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jorge Marques Ricardo
+77,Judit,Martínez,Moreno,Martínez Moreno,55112,ITG: Interactive Technologies Group,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Judit Martínez Moreno
+78,Hermann,Plass,Portulas,Plass Portulas,55112,ITG: Interactive Technologies Group,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Hermann Plass Portulas
+79,Jose Angel,Blat,Gimeno,Blat Gimeno,55126,ITG: Interactive Technologies Group,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jose Angel Blat Gimeno
+80,Philip,Tovstogan,,Tovstogan ,55300,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Philip Tovstogan
+81,Furkan,Yesiler,Mehmet,Yesiler Mehmet,55301,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Furkan Yesiler Mehmet
+82,Rafael,Caro,Repetto,Caro Repetto,55302,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Rafael Caro Repetto
+83,Vsevolod,Eremenko,,Eremenko ,55302,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Vsevolod Eremenko
+84,Ninad,Puranik,,Puranik ,55302,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Ninad Puranik
+85,António Filipe,Santana,Ramires,Santana Ramires,55302,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,António Filipe Santana Ramires
+86,Tiange,Zhu,,Zhu ,55302,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Tiange Zhu
+87,David,Cabrera,,Cabrera ,55305,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,David Cabrera
+88,Andrew,Correya,Albin,Correya Albin,55306,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Andrew Correya Albin
+89,Xavier,Favory,,Favory ,55306,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Xavier Favory
+90,Andres,Ferraro,,Ferraro ,55306,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Andres Ferraro
+91,Eduardo David,Fonseca,Montero,Fonseca Montero,55306,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Eduardo David Fonseca Montero
+92,Frederic,Font,Corbera,Font Corbera,55306,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Frederic Font Corbera
+93,Sergio,Oramas,Martin,Oramas Martin,55306,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Sergio Oramas Martin
+94,Stewart,Porter,Alastair,Porter Alastair,55306,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Stewart Porter Alastair
+95,Pablo,Alonso,Jimenez,Alonso Jimenez,55308,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Pablo Alonso Jimenez
+96,Dmitry,Bogdanov,,Bogdanov ,55308,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Dmitry Bogdanov
+97,Jordi,Pons,Puig,Pons Puig,55308,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Jordi Pons Puig
+98,Minz,Won,,Won ,55308,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Minz Won
+99,Merlijn,Blaauw,,Blaauw ,55310,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Merlijn Blaauw
+100,Jordi,Bonada,Sanjaume,Bonada Sanjaume,55310,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Jordi Bonada Sanjaume
+101,Marti,Umbert,Morist,Umbert Morist,55310,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Marti Umbert Morist
+102,Aggelos,Gkiokas,,Gkiokas ,55312,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Aggelos Gkiokas
+103,Marius,Miron,,Miron ,55312,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Marius Miron
+104,Alfonso Antonio,Perez,Carrillo,Perez Carrillo,55312,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Alfonso Antonio Perez Carrillo
+105,Emilia,Gomez,Gutierrez,Gomez Gutierrez,55314,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Emilia Gomez Gutierrez
+106,Enrique,Guaus,Termens,Guaus Termens,55314,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Enrique Guaus Termens
+107,Agustin,Martorell,Dominguez,Martorell Dominguez,55314,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Agustin Martorell Dominguez
+108,Sergio Iván,Giraldo,Mendez,Giraldo Mendez,55316,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Sergio Iván Giraldo Mendez
+109,Rafael,Ramirez,Melendez,Ramirez Melendez,55316,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Rafael Ramirez Melendez
+110,Zacharias,Vamvakousis,,Vamvakousis ,55316,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Zacharias Vamvakousis
+111,Helena,Cuesta,Mussarra,Cuesta Mussarra,55318,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Helena Cuesta Mussarra
+112,Juan Sebastián,Gomez,Cañon,Gomez Cañon,55318,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Juan Sebastián Gomez Cañon
+113,Perfecto Jose,Herrera,Boyer,Herrera Boyer,55318,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Perfecto Jose Herrera Boyer
+114,Lorenzo,Porcaro,,Porcaro ,55318,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Lorenzo Porcaro
+115,Joan,Serra,Julia,Serra Julia,55318,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Joan Serra Julia
+116,Angel-David,Blanco,Casares,Blanco Casares,55320,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Angel-David Blanco Casares
+117,Azadeh,Faridi,Ermagan,Faridi Ermagan,55320,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Azadeh Faridi Ermagan
+118,Sonia,Espi,Fernandez,Espi Fernandez,55322,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Sonia Espi Fernandez
+119,Cristina,Garrido,Franquet,Garrido Franquet,55322,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Cristina Garrido Franquet
+120,Francesc Xavier,Serra,Casals,Serra Casals,55324,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Francesc Xavier Serra Casals
+121,Sergi,Jorda,Puig,Jorda Puig,55326,MTG: Music Technology Group,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Sergi Jorda Puig
+122,Osiander Andres,Lewin,Richter,Lewin Richter,51005,MTG: Music Technology Group / PHONOS,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Osiander Andres Lewin Richter
+123,Angel,Faraldo,Perez,Faraldo Perez,55318,MTG: Music Technology Group / PHONOS,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Angel Faraldo Perez
+124,Leo,Wanner,,Wanner ,55418,Natural Language Processing,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Leo Wanner
+125,Horacio,Saggion,,Saggion ,55422,Natural Language Processing,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Horacio Saggion
+126,Miquel,Oliver,Riera,Oliver Riera,55226,NETS Network Technologies and Strategies Group,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Miquel Oliver Riera
+127,Gregor,Andrzejak,Ralph,Andrzejak Ralph,55100,NTSA: Nonlinear Time Series Analysis Group,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Gregor Andrzejak Ralph
+128,Federico,Devalle,,Devalle ,55117,NTSA: Nonlinear Time Series Analysis Group,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Federico Devalle
+129,Cristina,Gonzalez,Martinez,Gonzalez Martinez,55117,NTSA: Nonlinear Time Series Analysis Group,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Cristina Gonzalez Martinez
+130,Irene,Malvestio,,Malvestio ,55117,NTSA: Nonlinear Time Series Analysis Group,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Irene Malvestio
+131,Ogbugwa,Ochugboju,Angela,Ochugboju Angela,55117,NTSA: Nonlinear Time Series Analysis Group,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Ogbugwa Ochugboju Angela
+132,Giulia,Ruzzene,,Ruzzene ,55117,NTSA: Nonlinear Time Series Analysis Group,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Giulia Ruzzene
+133,Judit,Chamorro,Servent,Chamorro Servent,55115,Physense: Sensing in Physiology and Biomedicine Group,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Judit Chamorro Servent
+134,Marta,Guardiola,Garcia,Guardiola Garcia,55115,Physense: Sensing in Physiology and Biomedicine Group,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Marta Guardiola Garcia
+135,Carlos,Yagüe,Mendez,Yagüe Mendez,55119,Physense: Sensing in Physiology and Biomedicine Group,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Carlos Yagüe Mendez
+136,Ruben,Doste,Beltran,Doste Beltran,55121,Physense: Sensing in Physiology and Biomedicine Group,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Ruben Doste Beltran
+137,Gerard,Marti,Juan,Marti Juan,55121,Physense: Sensing in Physiology and Biomedicine Group,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Gerard Marti Juan
+138,Mariana,Nogueira,,Nogueira ,55123,Physense: Sensing in Physiology and Biomedicine Group,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Mariana Nogueira
+139,Cecilia Maria Costa Bento Sousa,Nunes,,Nunes ,55123,Physense: Sensing in Physiology and Biomedicine Group,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Cecilia Maria Costa Bento Sousa Nunes
+140,Morteza,Rasouligandomani,,Rasouligandomani ,55123,Physense: Sensing in Physiology and Biomedicine Group,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Morteza Rasouligandomani
+141,Oscar,Camara,Rey,Camara Rey,55103a,Physense: Sensing in Physiology and Biomedicine Group,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Oscar Camara Rey
+142,Bart H,Bijnens,,Bijnens ,55103b,Physense: Sensing in Physiology and Biomedicine Group,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Bart H Bijnens
+143,Paloma,Benavent,Climent,Benavent Climent,55223,Research Service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Paloma Benavent Climent
+144,Belen,Pascual,Molina,Pascual Molina,55223,Research Service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Belen Pascual Molina
+145,Manuel,Ronda,Carrasco,Ronda Carrasco,55223,Research Service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Manuel Ronda Carrasco
+146,Miguel Angel,Gonzalez,Ballester,Gonzalez Ballester,55105,"SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Miguel Angel Gonzalez Ballester
+147,Mario,Ceresa,,Ceresa ,55107,"SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Mario Ceresa
+148,Nerea,Mangado,Lopez,Mangado Lopez,55107,"SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Nerea Mangado Lopez
+149,Katharina,Heil,,Heil ,55109,"SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Katharina Heil
+150,Karim,Lekadir,,Lekadir ,55109,"SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Karim Lekadir
+151,Bernard,Noailly,Jerome,Noailly Jerome,55109,"SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Bernard Noailly Jerome
+152,Andy Luis,Olivares,Miyares,Olivares Miyares,55115,"SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Andy Luis Olivares Miyares
+153,Carlos Eduardo,Ruiz,Wills,Ruiz Wills,55115,"SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Carlos Eduardo Ruiz Wills
+154,Simone,Tassani,,Tassani ,55115,"SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Simone Tassani
+155,Sergio,Sanchez,Martinez,Sanchez Martinez,55119,"SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Sergio Sanchez Martinez
+156,Jordina,Torrents,Barrena,Torrents Barrena,55119,"SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Jordina Torrents Barrena
+157,Laura,Baumgartner,,Baumgartner ,55123,"SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Laura Baumgartner
+158,Víctor Manuel,Campello,Roman,Campello Roman,55123,"SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Víctor Manuel Campello Roman
+159,Irem,Cetin,,Cetin ,55123,"SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Irem Cetin
+160,Amelia,Jimenez,Sanchez,Jimenez Sanchez,55123,"SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Amelia Jimenez Sanchez
+161,Eric,Lluch,Alvarez,Lluch Alvarez,55123,"SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Eric Lluch Alvarez
+162,Pablo-Miki,Martí,Castellote,Martí Castellote,55123,"SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Pablo-Miki Martí Castellote
+163,Gema,Piella,Fenoy,Piella Fenoy,55103a,"SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Gema Piella Fenoy
+164,Joan,Codina,Filba,Codina Filba,55406,TALN: Natural Language Processing,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,Joan Codina Filba
+165,Alp,Öktem,Hamdi,Öktem Hamdi,55408,TALN: Natural Language Processing,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,Alp Öktem Hamdi
+166,Mireia,Farrus,Cabeceran,Farrus Cabeceran,55420,TALN: Natural Language Processing,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,Mireia Farrus Cabeceran
+167,Ghassan Tawfiq,Abura'Ed,Ahmed,Abura'Ed Ahmed,55301,TALN: Natural Language Processing,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,Ghassan Tawfiq Abura'Ed Ahmed
+168,Francesco,Barbieri,,Barbieri ,55305,TALN: Natural Language Processing,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,Francesco Barbieri
+169,Giorgia,Cistola,,Cistola ,55400,TALN: Natural Language Processing,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,Giorgia Cistola
+170,Alex,Peiro,Lilja,Peiro Lilja,55400,TALN: Natural Language Processing,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,Alex Peiro Lilja
+171,Roberto Juan,Carlini,Salguero,Carlini Salguero,55402,TALN: Natural Language Processing,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,Roberto Juan Carlini Salguero
+172,Carla,Ten,Ventura,Ten Ventura,55402,TALN: Natural Language Processing,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,Carla Ten Ventura
+173,Jens,Grivolla,,Grivolla ,55406,TALN: Natural Language Processing,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,Jens Grivolla
+174,Bosque Gerard,Casamayor,Del,Casamayor Del,55416,TALN: Natural Language Processing,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,Bosque Gerard Casamayor Del
+175,Alexandra-Catalina,Matreata,,Matreata ,55416,TALN: Natural Language Processing,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,Alexandra-Catalina Matreata
+176,Mariella,Dimiccoli,,Dimiccoli ,55420,TALN: Natural Language Processing,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,Mariella Dimiccoli
+177,Beatriz,Fisas,Elizalde,Fisas Elizalde,55420,TALN: Natural Language Processing,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,Beatriz Fisas Elizalde
+178,Alexander,Shvets,,Shvets ,55420,TALN: Natural Language Processing,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,Alexander Shvets
+179,Pablo,Accuosto,,Accuosto ,55424,TALN: Natural Language Processing,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,Pablo Accuosto
+180,Alex,Bravo,Serrano,Bravo Serrano,55424,TALN: Natural Language Processing,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,Alex Bravo Serrano
+181,Cheng,Sheang,Kim,Sheang Kim,55424,TALN: Natural Language Processing,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,Cheng Sheang Kim
+182,Laia,Albo,,Albo ,55102,TIDE: Interactive & Distributed Technologies for Education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Laia Albo
+183,Ishari,Amarasinghe,,Amarasinghe ,55102,TIDE: Interactive & Distributed Technologies for Education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Ishari Amarasinghe
+184,Yoshimi,Beardsley,Marc,Beardsley Marc,55102,TIDE: Interactive & Distributed Technologies for Education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Yoshimi Beardsley Marc
+185,Milica,Vujovic,,Vujovic ,55102,TIDE: Interactive & Distributed Technologies for Education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Milica Vujovic
+186,Pascual Pablo,Abenia,Polo,Abenia Polo,55128,TIDE: Interactive & Distributed Technologies for Education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Pascual Pablo Abenia Polo
+187,Davinia,Hernandez,Leo,Hernandez Leo,55128,TIDE: Interactive & Distributed Technologies for Education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Davinia Hernandez Leo
+188,Patricia,Santos,Rodriguez,Santos Rodriguez,55128,TIDE: Interactive & Distributed Technologies for Education,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Patricia Santos Rodriguez
+189,Enric,Peig,Olive,Peig Olive,55008,UBICALAB: Ubiquitous Computing Applications Lab,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Enric Peig Olive
+190,Joan Antoni,Melia,Segui,Melia Segui,55221,UBICALAB: Ubiquitous Computing Applications Lab,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Joan Antoni Melia Segui
+191,Rafael,Pous,Andres,Pous Andres,55426,UBICALAB: Ubiquitous Computing Applications Lab,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Rafael Pous Andres
+192,Victor,Casamayor,Pujol,Casamayor Pujol,55428,UBICALAB: Ubiquitous Computing Applications Lab,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Victor Casamayor Pujol
+193,Veronica,Moreno,Oliver,Moreno Oliver,55307,UGA TIC: Pedagogue in USQUID,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Veronica Moreno Oliver
+194,Judith,Champion,Colell,Champion Colell,55012,UGA TIC: Head of the Management and Administration Unit,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Judith Champion Colell
+195,Nuria,Figuls,Fernandez,Figuls Fernandez,55018,UGA TIC: Polytechnic School,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Nuria Figuls Fernandez
+196,Montserrat,Jaureguizar,Salas,Jaureguizar Salas,55018,UGA TIC: Polytechnic School,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Montserrat Jaureguizar Salas
+197,Maria Lourdes,Ventayol,Borras,Ventayol Borras,55018,UGA TIC: Polytechnic School,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Maria Lourdes Ventayol Borras
+198,Montiel,Marta,,Marta ,55018,UGA TIC: Polytechnic School Coordinator,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Montiel Marta
+199,Lydia,Garcia,Escobosa,Garcia Escobosa,55014,"UGA TIC: Recruitment, Docorate & International ETIC",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Lydia Garcia Escobosa
+200,Jana,Safrankova,,Safrankova ,55014,"UGA TIC: Recruitment, Docorate & International ETIC Coordinator",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Jana Safrankova
+201,Maria Montserrat,Brillas,Rosell,Brillas Rosell,55014,"UGA TIC: Recruitment, Doctorate & International ETIC",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Maria Montserrat Brillas Rosell
+202,Barrio,Nuria,,Nuria ,55014,"UGA TIC: Research, Promotion & Activities",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Barrio Nuria
+203,Montserrat,Serrano,Raguan,Serrano Raguan,55018,"UGA TIC: Research, Promotion & Activities",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Montserrat Serrano Raguan
+204,Pino,Patricia,,Patricia ,,"UGA TIC: Research, Promotion & Activities",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Pino Patricia
+205,Joana,Clotet,Sule,Clotet Sule,55020,"UGA TIC: Research, Promotion & Activities",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Joana Clotet Sule
+206,Llopis,Xavier,Monte,Xavier Monte,55020,"UGA TIC: Research, Promotion & Activities",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Llopis Xavier Monte
+207,Vanessa,Jimenez,Garcia,Jimenez Garcia,55020,"UGA TIC: Research, Promotion & Activities Coordinator",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Vanessa Jimenez Garcia
+208,Hemchandra,Adhikari,Mohit,Adhikari Mohit,55101,WN: Wireless Networking Group,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Hemchandra Adhikari Mohit
+209,Boris,Bellalta,Jimenez,Bellalta Jimenez,55202,WN: Wireless Networking Group,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Boris Bellalta Jimenez
+210,Francisco Jose,Wilhelmi,Roca,Wilhelmi Roca,55208,WN: Wireless Networking Group,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Francisco Jose Wilhelmi Roca
+211,Federico,Franzoni,,Franzoni ,55210,WN: Wireless Networking Group,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Federico Franzoni
+212,Rasoul,Nikbakht,Silab,Nikbakht Silab,55210,WN: Wireless Networking Group,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Rasoul Nikbakht Silab
+213,Zaira,Pindado,Tost,Pindado Tost,55210,WN: Wireless Networking Group,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Zaira Pindado Tost
+214,Xavier,Salleras,Soler,Salleras Soler,55210,WN: Wireless Networking Group,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Xavier Salleras Soler
+215,Javier,Silva,Velon,Silva Velon,55210,WN: Wireless Networking Group,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Javier Silva Velon
+216,Vanesa,Daza,Fernandez,Daza Fernandez,55216,WN: Wireless Networking Group,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Vanesa Daza Fernandez
+217,Carla,Rafols,Salvador,Rafols Salvador,55216,WN: Wireless Networking Group,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Carla Rafols Salvador
+218,Angel,Lozano,Solsona,Lozano Solsona,55218,WN: Wireless Networking Group,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Angel Lozano Solsona
+219,Antonio,Adame,Vazquez,Adame Vazquez,55228,WN: Wireless Networking Group,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Antonio Adame Vazquez
+220,Albert,Bel,Pereira,Bel Pereira,55228,WN: Wireless Networking Group,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Albert Bel Pereira
+221,Marc,Carrascosa,Zamacois,Carrascosa Zamacois,55228,WN: Wireless Networking Group,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Marc Carrascosa Zamacois
+222,Alejandro,Alcaine,Otin,Alcaine Otin,55107,WSSC: Web Science and Social Computing,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Alejandro Alcaine Otin
+223,Carlos Alberto,Castillo,Ocaranza,Castillo Ocaranza,55201,WSSC: Web Science and Social Computing,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Carlos Alberto Castillo Ocaranza
+224,Ana Maria Alejandro,Freire,Veiga,Freire Veiga,55215,WSSC: Web Science and Social Computing,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Ana Maria Alejandro Freire Veiga
+225,Santiago,Galella,Toledo,Galella Toledo,55215,WSSC: Web Science and Social Computing,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Santiago Galella Toledo
+226,Marzieh,Karimihaghighi,,Karimihaghighi ,55215,WSSC: Web Science and Social Computing,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Marzieh Karimihaghighi
+227,Diana Michelle,Ramirez,Cifuentes,Ramirez Cifuentes,55215,WSSC: Web Science and Social Computing,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Diana Michelle Ramirez Cifuentes
+228,Maria,Rauschenberger,,Rauschenberger ,55215,WSSC: Web Science and Social Computing,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Maria Rauschenberger
+229,Ricardo Alberto,Baeza,Yates,Baeza Yates,55228,WSSC: Web Science and Social Computing,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Ricardo Alberto Baeza Yates
