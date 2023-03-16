@@ -77,6 +77,11 @@ if (navigator.mediaDevices.getUserMedia) {
             console.log(responseData.response_transcription);
             console.log(responseData.audio_path);
 
+            const container = document.querySelector("#container")
+            var prompt = document.createElement("div");
+            prompt.className = "prompt";
+            prompt.innerHTML = "you: "+responseData.query_transcription;
+            container.appendChild(prompt);
             // const msg = new SpeechSynthesisUtterance(responseData.response_transcription);
             // let synth = window.speechSynthesis;
             // selectVoice(synth, responseData.lang, msg);
@@ -88,8 +93,14 @@ if (navigator.mediaDevices.getUserMedia) {
             audio.addEventListener("load", function() { 
             audio.play(); 
         }, true);
-            
-
+            var res = document.createElement("div");
+            res.className = "response";
+            res.innerHTML = "EVA: "+responseData.response_transcription;
+            container.appendChild(res);
+            const lastdiv = document.querySelector(
+              "#container > div:last-of-type"
+            );
+            lastdiv.scrollIntoView();
             return responseData;
           } else {
             console.error('Error:', xhr.statusText);
@@ -97,30 +108,30 @@ if (navigator.mediaDevices.getUserMedia) {
         }
       };
 
-      function setSpeech(synth) {
-        return new Promise(
-            function (resolve, reject) {
-                let id;
-                id = setInterval(() => {
-                    if (synth.getVoices().length !== 0) {
-                        resolve(synth.getVoices());
-                        clearInterval(id);
-                    }
-                }, 10);
-            }
-        )
-    }
+    //   function setSpeech(synth) {
+    //     return new Promise(
+    //         function (resolve, reject) {
+    //             let id;
+    //             id = setInterval(() => {
+    //                 if (synth.getVoices().length !== 0) {
+    //                     resolve(synth.getVoices());
+    //                     clearInterval(id);
+    //                 }
+    //             }, 10);
+    //         }
+    //     )
+    // }
 
-      async function selectVoice(synth, lang, msg) {
-        voices = await setSpeech(synth);
-            for (let i = 0; i < voices.length; i++) {
-            if (voices[i].lang.startsWith(lang)) {
-                msg.voice = voices[i];
-                synth.speak(msg);
-                return msg;
-            }
-            }
-        }
+      // async function selectVoice(synth, lang, msg) {
+      //   voices = await setSpeech(synth);
+      //       for (let i = 0; i < voices.length; i++) {
+      //       if (voices[i].lang.startsWith(lang)) {
+      //           msg.voice = voices[i];
+      //           synth.speak(msg);
+      //           return msg;
+      //       }
+      //       }
+      //   }
         
         
 

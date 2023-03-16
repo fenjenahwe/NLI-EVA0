@@ -9,6 +9,7 @@ from pydub.utils import which
 from fastapi.middleware.cors import CORSMiddleware
 from gtts import gTTS
 import re
+import random
 import playsound
 from deep_translator import GoogleTranslator
 
@@ -28,8 +29,6 @@ class MyResponse(BaseModel):
     response_transcription: str
     audio_path: str
 
-
-num = 0
 
 @app.post("/transcribe")
 async def transcribe(request: Request):
@@ -78,27 +77,19 @@ async def transcribe(request: Request):
     text = response.text
     print("text", text)
     text = re.search("(?<=text\":\")(.*)(?=\")", text).group()
-
     print(text)
     if lang != 'en':
         # TRANSLATION
         text = GoogleTranslator(source='auto', target=lang).translate(text)
-
     tts = gTTS(text, lang=lang)
-    global num
-    if num == 0:
-        filepath = "response0.mp3"
-        num = 1
-    if num == 1:
-        filepath = "response1.mp3"
-        num = 0
 
+    rand = random.randint(0, 9)
+    filepath = "response{}.mp3".format(rand)
     tts.save(filepath)
-
-
     # playsound.playsound('response.mp3', True)
 
-    response_data = MyResponse(query_transcription=transcription, lang=lang, response_transcription=text, audio_path=filepath)
+    response_data = MyResponse(query_transcription=transcription, lang=lang, response_transcription=text,
+                               audio_path=filepath)
     response_json = jsonable_encoder(response_data)
 
     return response_json

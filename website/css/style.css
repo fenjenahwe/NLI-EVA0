@@ -17,6 +17,30 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#container {
+overflow: auto;
+height: 98%;
+/* display: grid; */
+}
+
+section {
+  height: 100%
+}
+
+.main-controls {
+  height: 200px;
+}
+
+.prompt {
+  height: fit-content;
+  overflow-wrap: break-word;
+}
+
+.response {
+  height: fit-content;
+  overflow-wrap: break-word;
+}
+
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
@@ -43,7 +67,14 @@ body {
 .content {
   background-color: #ddd;
   padding: 10px;
-  height: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sound-clips
+{
+  height: calc(100% - 200px);
 }
 
 /* Style the footer */
@@ -53,9 +84,7 @@ body {
 }
 
 .buttons {
-  position:relative;
-  top:50%;
-  left: 50%;
+  display: inline;
 }
 
 .btn {
