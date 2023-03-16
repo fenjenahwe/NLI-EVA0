@@ -1,0 +1,28 @@
+{
+  "name": "node-whisper",
+  "version": "1.0.0",
+  "description": "Sample node application to interact with Whisper command line",
+  "main": "node-whisper.js",
+  "scripts": {
+    "test": "node node-whisper.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Techpro-ninja/openai-whisper-with-python-and-nodejs"
+  },
+  "keywords": [
+    "openai",
+    "whisper",
+    "with",
+    "node.js"
+  ],
+  "author": "chilarai mushahary",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Techpro-ninja/openai-whisper-with-python-and-nodejs/issues"
+  },
+  "homepage": "https://github.com/Techpro-ninja/openai-whisper-with-python-and-nodejs#readme",
+  "dependencies": {
+    "child_process": "^1.0.2"
+  }
+}
