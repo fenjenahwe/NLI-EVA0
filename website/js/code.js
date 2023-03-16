@@ -80,7 +80,7 @@ if (navigator.mediaDevices.getUserMedia) {
             // const msg = new SpeechSynthesisUtterance(responseData.response_transcription);
             // let synth = window.speechSynthesis;
             // selectVoice(synth, responseData.lang, msg);
-            var source = "../response.mp3"
+            var source = "../"+responseData.audio_path;
             var audio = document.createElement("audio");
             audio.src = source;
             audio.autoplay = true;

@@ -112,7 +112,7 @@ nlu:
       - is [MARIUS](teacher_name) a part of the staff?
       - tell me more about [MARIA](teacher_name).
       - Where can I find [GERGELY](teacher_name)?
-      - Does [VINCENC](teacher_name) belong to the [AI&ML](group_name)?
+      - Does [VICENC](teacher_name) belong to the [AI&ML](group_name)?
       - is the [AI&ML: Artificial Intelligence and Machine Learning group](group_name) in this department?
       - is there a [WN: Wireless Networking Group](group_name) here?
       - can I find the [Computational Neuroscience group](group_name)?
