@@ -32,7 +32,7 @@ class ActionCheckExistence(Action):
         names = []
         groups = []
         for entity in tracker.latest_message["entities"]:
-            if entity["entity"] == "PERSON":
+            if entity["entity"] == "PERSON" and not entity["value"].lower() == "dtic":
                 names.append(entity["value"])
             if entity["entity"] == "teacher_name" and len(names)==0:
                 names.append(entity["value"])
