@@ -135,3 +135,20 @@ nlu:
       - how many professors are in [Ai&ML](group_name) group?
       - how many people work in the [Ai&ML](group_name) group?
       - how many people are in [Ai&ML](group_name)?
+
+  - intent: get_curr_weather
+    examples: |
+      - What's the current weather in Barcelona?
+      - How warm is it currently outside?
+      - Do I need an umbrella to go outside?
+      - How's the weather?
+      - What's it like out there?
+      - What’s the temperature like?
+
+  - intent: get_cafeteria_information
+    examples: |
+      - Where can I get a coffee around here?
+      - I'm so thirsty.
+      - Tell me where I can get a beer around here?
+      - Something to eat would be amazing.
+      - What are the opening times of the cafeteria?
