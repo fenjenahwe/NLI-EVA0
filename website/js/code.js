@@ -9,7 +9,6 @@
 
 const record = document.querySelector("#mic");
 const stop = document.querySelector("#stoprec");
-
 const soundClips = document.querySelector('.sound-clips');
 const canvas = document.querySelector('.visualizer');
 const mainSection = document.querySelector('.main-controls');

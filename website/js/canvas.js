@@ -134,26 +134,22 @@ function init()
 		var anim = animations.idle;
 		var time_factor = 1;
 
-		//control with keys
-		if(gl.keys["UP"])
-		{
-			// girl_pivot.moveLocal([0,0,1]);
-			// anim = animations.walking;
-		}
-		else if(gl.keys["DOWN"])
-		{
-			// girl_pivot.moveLocal([0,0,-1]);
-			// anim = animations.walking;
-			// time_factor = -1;
-		}
-		// if(gl.keys["LEFT"])
-		// 	girl_pivot.rotate(90*DEG2RAD*dt,[0,1,0]);
-		// else if(gl.keys["RIGHT"])
-		// 	girl_pivot.rotate(-90*DEG2RAD*dt,[0,1,0]);
+		
+		if(Chat.response) {
+			var res = Chat.response;
+			//control anim with queries
+			if(res.response_transcription.includes("welcome"))
+			{	
+				anim = animations.waving;
+			}
+			else if(gl.keys["DOWN"])
+			{
+				// anim = animations.walking;
+				// time_factor = -1;
+			}
 
-		// var pos = girl_pivot.position;
-		// var nearest_pos = walkarea.adjustPosition( pos );
-		// girl_pivot.position = nearest_pos;
+		}
+	
 
 		//move bones in the skeleton based on animation
 		anim.assignTime( t * 0.001 * time_factor );
