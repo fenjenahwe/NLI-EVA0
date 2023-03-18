@@ -86,6 +86,7 @@ function init()
 	loadAnimation("thinking","../avatar/"+avatar+"/thinking.skanim");
 	loadAnimation("waving","../avatar/"+avatar+"/waving.skanim");
 	loadAnimation("headnod","../avatar/"+avatar+"/headnod.skanim");
+	loadAnimation("talking","../avatar/"+avatar+"/talking.skanim");
 
 	//load a GLTF for the room
 	// var room = new RD.SceneNode({scaling:40,position:[0,-.01,0]});
@@ -138,14 +139,17 @@ function init()
 		if(Chat.response) {
 			var res = Chat.response;
 			//control anim with queries
-			if(res.response_transcription.includes("welcome"))
+			if(res.response_transcription.includes("welcome") || res.response_transcription.includes("Bye"))
 			{	
 				anim = animations.waving;
 			}
-			else if(gl.keys["DOWN"])
+			else if(res.response_transcription.includes("22 groups"))
 			{
-				// anim = animations.walking;
-				// time_factor = -1;
+				anim = animations.talking;
+			}
+			else if(res.response_transcription.includes("teaching staff"))
+			{
+				anim = animations.headnod;
 			}
 
 		}

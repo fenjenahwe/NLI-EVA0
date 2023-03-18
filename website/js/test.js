@@ -93,7 +93,7 @@ var Chat = {
                         audio.play(); 
                         }, true);
                         audio.addEventListener("ended", function() {
-                        Chat.response = null;
+                        Chat.response.response_transcription = '';
                         }, true);
                         showResponse();
 
