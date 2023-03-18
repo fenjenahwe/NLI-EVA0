@@ -16,6 +16,8 @@ nlu:
       - goodmorning
       - goodevening
       - good afternoon
+      - yo
+      - what's up eva
 
   - intent: goodbye
     examples: |
@@ -82,6 +84,7 @@ nlu:
       - extremly sad
       - so saad
       - so sad
+      - angry
 
   - intent: bot_challenge
     examples: |
@@ -95,13 +98,23 @@ nlu:
       - how many groups are in this department?
       - I would like to know how many different groups I can find here.
       - Tell me about the split of this department.
+      - What can you tell me about this department?
+      - Tell me something about this department.
 
   - intent: get_all_groups
     examples: |
       - Which groups can I find here?
+      - Can you tell me about the groups here?
+      - Could you list all the labs of the department?
+      - Can you list the groups here?
+      - I'd like to know which groups are here.
       - Please give me all the groups in this department.
       - What are the topics being worked on in this department?
       - what are the groups in this department?
+      - What are the research areas of this department?
+      - What groups are in the department of Information and Communications Technologies?
+      - I would like to know the groups of the department.
+      - I need a list of the groups in the department.
 
   - intent: confirm_exists
     examples: |
@@ -113,6 +126,8 @@ nlu:
       - tell me more about [MARIA](teacher_name).
       - Where can I find [GERGELY](teacher_name)?
       - Does [VICENC](teacher_name) belong to the [AI&ML](group_name)?
+      - Does [JORGE](teacher_name) work in the [AI&ML](group_name)?
+      - Is [ANDERS](teacher_name) part of the [AI&ML](group_name)?
       - is the [AI&ML: Artificial Intelligence and Machine Learning group](group_name) in this department?
       - is there a [WN: Wireless Networking Group](group_name) here?
       - can I find the [Computational Neuroscience group](group_name)?
@@ -120,6 +135,12 @@ nlu:
       - is there a [Wireless Networking Group](group_name) group in DTIC?
       - does DTIC have a [natural language processing group](group_name)?
       - does the DTIC have a [Image Processing lab](group_name)?
+      - Can you tell me about the [ITC](group_name)?
+      - Can you tell me about the [biomedicine](group_name) group?
+      - tell me about the [TALN](group_name) lab.
+      - tell me about the [TALN](group_name) group.
+      - tell me more about the [Interactive Technologies](group_name).
+      - what do you know about the [PHONOS](group_name) group?
       - Where can I find [JORGE](teacher_name)?
       - What's the office number of [ALBERT](teacher_name)?
 

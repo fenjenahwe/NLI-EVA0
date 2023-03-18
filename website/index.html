@@ -22,10 +22,14 @@
 <div class="content">
   <div id="welcome">
   <h2>Chat with EVA!</h2>
-  <p>Click on the button and speak with EVA or type in your message.</p>
+  <p>Click on the microphone and speak with EVA or disable the speech and type in your message. Click on "Stop" at the end of your speech to send it to EVA.</p>
   <div class="buttons">
     <button id="mic" class="btn"><i class="fa fa-microphone" aria-hidden="true"></i></button>
     <button id="stoprec" class="btn">Stop</button>
+    <label class="switch">
+      <input type="checkbox" checked>
+      <span class="slider round"></span>
+    </label>
     <section class="main-controls">
       <canvas class="visualizer" height="60px" width="80%"></canvas>
     </section>
@@ -41,7 +45,7 @@
         id="sendbutton"
         class="sendmessage"
         type="button"
-        value="send"
+        value="Send"
       />
     </div>
 </div>
@@ -56,8 +60,9 @@
 </div>
 </div>
 <div id="canvascont"></div>
+<div id="image"></div>
 
-<script src="./js/test.js"></script>
+<script src="./js/code.js"></script>
 <script type="text/javascript" src="js/extra/gl-matrix-min.js"></script>
 <script type="text/javascript" src="js/extra/litegl.js"></script>
 <script type="text/javascript" src="js/extra/rendeer.js"></script>

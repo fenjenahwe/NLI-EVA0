@@ -1,3 +1,5 @@
+//framework provided in the VCE course by javi agenjo, used as a starting point
+
 var scene = null;
 var renderer = null;
 var camera = null;
@@ -86,7 +88,9 @@ function init()
 	loadAnimation("thinking","../avatar/"+avatar+"/thinking.skanim");
 	loadAnimation("waving","../avatar/"+avatar+"/waving.skanim");
 	loadAnimation("headnod","../avatar/"+avatar+"/headnod.skanim");
+	loadAnimation("headshake","../avatar/"+avatar+"/headshake.skanim");
 	loadAnimation("talking","../avatar/"+avatar+"/talking.skanim");
+	loadAnimation("pointing","../avatar/"+avatar+"/pointing.skanim");
 
 	//load a GLTF for the room
 	// var room = new RD.SceneNode({scaling:40,position:[0,-.01,0]});
@@ -150,6 +154,14 @@ function init()
 			else if(res.response_transcription.includes("teaching staff"))
 			{
 				anim = animations.headnod;
+			}
+			else if(res.response_transcription.includes("cheer"))
+			{
+				anim = animations.pointing;
+			}
+			else if(res.response_transcription.includes("found multiple"))
+			{
+				anim = animations.headshake;
 			}
 
 		}

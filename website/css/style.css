@@ -16,6 +16,25 @@ body {
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#image {
+  position:absolute;
+  bottom: 35%;
+  left: 7%;
+  /* border: 1px solid red; */
+  height: 200px;
+  width:200px;
+}
+
+img {
+  height: auto; 
+  width: auto; 
+  max-width: 300px; 
+  max-height: 400px;
 }
 
 #container {
@@ -31,12 +50,12 @@ gap: 0.6rem;
 
 #canvascont {
   display: block;
-  width: 600px;
+  width: 100%;
   height: 600px;
 }
 
 .visualizer {
-  border-radius: 15%;
+  border-radius: 1em;
 }
 
 section {
@@ -44,7 +63,7 @@ section {
 }
 
 .main-controls {
-  height: 150px;
+  height: fit-content;
   margin-top: 20px;
   /* padding-top:20px */
 }
@@ -72,7 +91,7 @@ section {
   width: fit-content;
   padding: 1%;
   border: 1px solid blue;
-  background-color: aquamarine;
+  background-color: #56a3ef4f;
   border-radius: 0 0.5rem 0.5rem 0.5rem;
   text-align: left;
   justify-self: left;
@@ -103,9 +122,12 @@ section {
 /* Style the content */
 .content {
   /* background-color: #ddd; */
+  background-color: rgb(200 206 212);
+  border: 2px solid blue;
+  border-radius: 1em;
   padding: 10px;
   height: 40%;
-  width: 100%;
+  width: 97%;
   display: flex;
   flex-direction: row;
 }
@@ -114,13 +136,16 @@ section {
   width: 30%;
   height: 100%;
   margin-right:10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .top {
 width: 70%;
-background-color: rgb(255, 255, 176);
+background-color: rgb(255 255 255);
 margin-left: 10px;
-border-radius: 2%;
+border-radius: 1em;
 }
 
 /* .sound-clips
@@ -148,8 +173,9 @@ border-radius: 2%;
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #271777;
+  background-color: #a61eff;
   height: auto;
+  border-radius: 1em;
 }
 
 .currentmessage {
@@ -164,10 +190,11 @@ border-radius: 2%;
   line-height: 25.5px;
   font-size: 11pt;
   white-space: normal;
-  border-radius: 3px;
+  border-radius: 5px;
   font-family: "silkscreenfonth3";
   color:green;
-  width: 100%;
+  width: calc(100% - 60px);
+  border: none;
 }
 
 #sendbutton {
@@ -185,6 +212,16 @@ border-radius: 2%;
   border-radius: 15%;
 }
 
+.sendmessage {
+  background-color: #d18bffa3;
+  border: 1px solid white;
+  color: white;
+  /* padding: 12px 16px; */
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 15%;
+}
+
 /* Darker background on mouse-over */
 .btn:hover {
   background-color: RoyalBlue;
@@ -192,4 +229,66 @@ border-radius: 2%;
 
 .clicked {
   background-color: rgb(1, 132, 32);
+}
+
+/* Rounded sliders */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  vertical-align: middle;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #a61eff;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
 }

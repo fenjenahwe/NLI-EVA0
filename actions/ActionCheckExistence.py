@@ -34,29 +34,18 @@ class ActionCheckExistence(Action):
         for entity in tracker.latest_message["entities"]:
             if entity["entity"] == "PERSON" and not entity["value"].lower() == "dtic":
                 names.append(entity["value"])
+                print(names)
             if entity["entity"] == "teacher_name" and len(names)==0:
                 names.append(entity["value"])
+                print(names)
             if entity["entity"] == "group_name":
                 groups.append(entity["value"])
+                print(groups)
 
         if len(names) == 0 and len(groups) == 0:
             dispatcher.utter_message("Unfortunately I couldn't understand the name of a professor nor a group.")
         
-        if len(names) >= 1:
-            entries = self.all_teachers[self.all_teachers['Full name'].str.contains(names[0].title())]
-                                    
-            if len(entries) == 1:
-                dispatcher.utter_message(text=f"{entries.iloc[0]['Full name']} is part of the DTIC teaching staff and works in the {entries.iloc[0]['Group belonging']}, office number {entries.iloc[0]['Office number']}.")
-                return [SlotSet(key="slot_group", value=entries.iloc[0]['Group belonging'])]
-            elif len(entries) > 1:
-                buttons = []
-                for i in range(len(entries)):
-                    buttons.append({"title": entries.iloc[i]['Full name']})                  
-                dispatcher.utter_message(text="I found multiple teachers matching this question. Please give me the full name of the person you are looking for :)\n" + "\n".join(entries['Full name'].values))
-            else:
-                dispatcher.utter_message(text=f"I do not recognize {names[0]}. Did you spell that correctly?")
-        
-        if len(groups) == 1 and len(names) == 0:
+        if (len(groups) >= 1 and names[0].title() == "Can") or (len(groups) >= 1 and len(names) == 0):
             group_found = False
             groups[0] = groups[0].replace("lab", "").replace("group", "").strip()
             for group in self.all_groups:
@@ -65,5 +54,27 @@ class ActionCheckExistence(Action):
                     dispatcher.utter_message(text="The " + group + " is part of the DTIC department.")
             if not group_found:
                 dispatcher.utter_message("I was not able to find a group for the search term " + groups[0] + ". Sorry for the inconvenience!")
-        
+
+        if len(names) >= 1:
+            entries = self.all_teachers[self.all_teachers['Full name'].str.contains(names[0].title())]
+
+            if len(names) == 1 and names[0].title() == "Can":
+                dispatcher.utter_message(
+                    text="Can you repeat that please?")
+
+            if len(entries) == 1:
+                dispatcher.utter_message(
+                    text=f"{entries.iloc[0]['Full name']} is part of the DTIC teaching staff and works in the {entries.iloc[0]['Group belonging']}, office number {entries.iloc[0]['Office number']}.")
+                return [SlotSet(key="slot_group", value=entries.iloc[0]['Group belonging'])]
+            elif len(entries) > 1:
+                buttons = []
+                for i in range(len(entries)):
+                    buttons.append({"title": entries.iloc[i]['Full name']})
+                dispatcher.utter_message(
+                    text="I found multiple teachers matching this question. Please give me the full name of the person you are looking for :)\n" + "\n".join(
+                        entries['Full name'].values))
+            else:
+                dispatcher.utter_message(text=f"I do not recognize {names[0]}. Did you spell that correctly?")
+
+
         return [SlotSet(key="slot_group", value=None)]

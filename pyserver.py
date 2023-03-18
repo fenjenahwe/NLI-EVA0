@@ -12,6 +12,7 @@ import re
 import random
 import playsound
 from deep_translator import GoogleTranslator
+import string
 
 app = FastAPI()
 
@@ -29,6 +30,7 @@ class MyResponse(BaseModel):
     response_transcription: str
     audio_path: str
     rand: int
+    randletter: str
 
 
 @app.post("/transcribe")
@@ -85,12 +87,16 @@ async def transcribe(request: Request):
     tts = gTTS(text, lang=lang)
 
     rand = random.randint(0, 9)
-    filepath = "./website/src/response{}.mp3".format(rand)
+    prefix = "./website/src/response{}".format(rand)
+    randletter = random.choice(string.ascii_letters)
+    suffix = "{}.mp3".format(randletter)
+    # filepath = "./website/src/response{}.mp3".format(rand)
+    filepath = prefix+suffix
     tts.save(filepath)
     # playsound.playsound('response.mp3', True)
 
     response_data = MyResponse(query_transcription=transcription, lang=lang, response_transcription=text,
-                               audio_path=filepath, rand=rand)
+                               audio_path=filepath, rand=rand, randletter=randletter)
     response_json = jsonable_encoder(response_data)
 
     return response_json

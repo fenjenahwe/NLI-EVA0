@@ -42,11 +42,7 @@ responses:
     - text: "The 22 groups are as follows: AI&ML, BERG, CMTECH, Computational Neuroscience, IP4EC, IPG, ITC, ITG, MTG, PHONOS, Natural Language Processing, NETS, NTSA, Physense, Research Service, SIMBIOsys, TALN, TIDE, UBICALAB, UGA TIC, WN, WSSC"
 
   utter_greet:
-    - text: "Hey, welcome to the DTIC department! You can ask me about the staff and the groups in this department."
-    - text: "Greetings from the voice chat!"
-      channel: "asr_transcription"
-    - text: "hi from your custom channel!"
-      channel: "voicechat"
+    - text: "Hey, welcome to the Department of Information and Communications Technologies (DTIC)! You can ask me about the staff and the groups in this department."
 
   utter_cheer_up:
     - text: "Here is something to cheer you up:"
@@ -59,7 +55,7 @@ responses:
     - text: "Great, carry on!"
 
   utter_goodbye:
-    - text: "Bye"
+    - text: "Bye bye"
 
   utter_iamabot:
     - text: "I am a bot, powered by Rasa."
