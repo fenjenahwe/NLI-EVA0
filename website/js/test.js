@@ -78,11 +78,8 @@ var Chat = {
                         console.log(responseData.response_transcription);
                         console.log(responseData.audio_path);
             
-                        const container = document.querySelector("#container")
-                        var prompt = document.createElement("div");
-                        prompt.className = "prompt";
-                        prompt.innerHTML = "you: "+responseData.query_transcription;
-                        container.appendChild(prompt);
+                        showPrompt();
+                        
                         // const msg = new SpeechSynthesisUtterance(responseData.response_transcription);
                         // let synth = window.speechSynthesis;
                         // selectVoice(synth, responseData.lang, msg);
@@ -95,11 +92,11 @@ var Chat = {
                         audio.addEventListener("load", function() { 
                         audio.play(); 
                         }, true);
-                        var res = document.createElement("div");
-                        res.className = "response";
-                        res.innerHTML = "EVA: "+responseData.response_transcription;
-                        container.appendChild(res);
-                        container.scrollTop = 1000000;
+                        audio.addEventListener("ended", function() {
+                        Chat.response = null;
+                        }, true);
+                        showResponse();
+
                         return responseData;
                         } else {
                         console.error('Error:', xhr.statusText);
@@ -126,6 +123,12 @@ var Chat = {
             }
     
         };
+
+        // function textPrompt() {
+        //     const textarea = document.querySelector("textarea");
+        //     textarea.addEventListener("keydown", inputText.bind(this)); // send message on Enter
+        //     this.sendButton.onclick = this.inputText.bind(this); // send message on "send" button click
+        // }
         
         function visualize(stream) {
             if(!audioCtx) {
@@ -181,7 +184,25 @@ var Chat = {
             
               }
         };
-    
+        
+        function showPrompt() {
+            const container = document.querySelector("#container")
+            var prompt = document.createElement("div");
+            prompt.className = "prompt";
+            prompt.innerHTML = "you: "+Chat.response.query_transcription;
+            container.appendChild(prompt);
+            container.scrollTop = 1000000;
+        };
+
+        function showResponse() {
+            const container = document.querySelector("#container")
+            var res = document.createElement("div");
+            res.className = "response";
+            res.innerHTML = "EVA: "+Chat.response.response_transcription;
+            container.appendChild(res);
+            container.scrollTop = 1000000;
+        }
+
         window.onresize = function() {
             canvas.width = mainSection.offsetWidth;
         }

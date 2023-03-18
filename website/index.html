@@ -22,7 +22,7 @@
 <div class="content">
   <div id="welcome">
   <h2>Chat with EVA!</h2>
-  <p>Click on the button and speak with EVA</p>
+  <p>Click on the button and speak with EVA or type in your message.</p>
   <div class="buttons">
     <button id="mic" class="btn"><i class="fa fa-microphone" aria-hidden="true"></i></button>
     <button id="stoprec" class="btn">Stop</button>
@@ -30,6 +30,19 @@
       <canvas class="visualizer" height="60px" width="80%"></canvas>
     </section>
   <!-- <button class="btn"><i class="fa fa-bars"></i></button> -->
+    </div>
+    <div id="msginput">
+      <textarea
+        class="currentmessage"
+        type="text"
+        placeholder="type a message"
+      ></textarea>
+      <input
+        id="sendbutton"
+        class="sendmessage"
+        type="button"
+        value="send"
+      />
     </div>
 </div>
   <div class="top">

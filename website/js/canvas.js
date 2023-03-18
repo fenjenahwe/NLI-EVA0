@@ -149,8 +149,9 @@ function init()
 			}
 
 		}
-	
 
+		else anim = animations.idle;
+	
 		//move bones in the skeleton based on animation
 		anim.assignTime( t * 0.001 * time_factor );
 		//copy the skeleton in the animation to the character

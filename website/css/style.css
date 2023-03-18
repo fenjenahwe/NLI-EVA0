@@ -136,6 +136,43 @@ border-radius: 2%;
 
 .buttons {
   margin-top:20px;
+  height: 150px;
+}
+
+#msginput {
+  align-items: flex-start;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #271777;
+  height: auto;
+}
+
+.currentmessage {
+  text-align: left;
+  display: block;
+  overflow: auto;
+  resize: none;
+  margin: 0;
+  height: 25.5px;
+  background-color: white;
+  padding-left: 8px;
+  line-height: 25.5px;
+  font-size: 11pt;
+  white-space: normal;
+  border-radius: 3px;
+  font-family: "silkscreenfonth3";
+  color:green;
+  width: 100%;
+}
+
+#sendbutton {
+  width: 50px;
+  height: 25.5px;
 }
 
 .btn {
