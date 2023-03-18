@@ -28,6 +28,7 @@ class MyResponse(BaseModel):
     lang: str
     response_transcription: str
     audio_path: str
+    rand: int
 
 
 @app.post("/transcribe")
@@ -76,7 +77,7 @@ async def transcribe(request: Request):
     #TTS
     text = response.text
     print("text", text)
-    text = re.search("(?<=text\":\")(.*)(?=\")", text).group()
+    text = re.search("(?<=text\":\")(.*?)(?=\")", text).group()
     print(text)
     if lang != 'en':
         # TRANSLATION
@@ -84,12 +85,12 @@ async def transcribe(request: Request):
     tts = gTTS(text, lang=lang)
 
     rand = random.randint(0, 9)
-    filepath = "response{}.mp3".format(rand)
+    filepath = "./website/src/response{}.mp3".format(rand)
     tts.save(filepath)
     # playsound.playsound('response.mp3', True)
 
     response_data = MyResponse(query_transcription=transcription, lang=lang, response_transcription=text,
-                               audio_path=filepath)
+                               audio_path=filepath, rand=rand)
     response_json = jsonable_encoder(response_data)
 
     return response_json

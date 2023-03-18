@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>CSS Template</title>
+<title>Eva Chatbot!</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta charset="UTF-8" />
@@ -13,35 +13,45 @@
 />
 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 <link rel="stylesheet" href="./images/font-awesome-4.7.0/css/font-awesome.min.css">
+<script src="https://cdn.jsdelivr.net/npm/three@0.130.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.130.0/examples/js/loaders/GLTFLoader.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.130.0/examples/js/loaders/FBXLoader.js"></script>
 </head>
 <body>
 
-<div class="topnav">
-  <!-- <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a> -->
-</div>
-
 <div class="content">
+  <div id="welcome">
   <h2>Chat with EVA!</h2>
   <p>Click on the button and speak with EVA</p>
-  <section class="main-controls">
-  <canvas class="visualizer" height="60px"></canvas>
   <div class="buttons">
     <button id="mic" class="btn"><i class="fa fa-microphone" aria-hidden="true"></i></button>
-    <button id="stoprec" class="btn"><i class="fad fa-square"></i>Stop</button>
+    <button id="stoprec" class="btn">Stop</button>
+    <section class="main-controls">
+      <canvas class="visualizer" height="60px" width="80%"></canvas>
+    </section>
   <!-- <button class="btn"><i class="fa fa-bars"></i></button> -->
     </div>
-</section>
-<section class="sound-clips">
+</div>
+  <div class="top">
+  
 <div id="container">
-  <div class="prompt" style="display:none">you:</div>
-  <div class="response" style="display:none">rasa:</div>
+  <div class="prompt" style="display:none">you: hey rasa wassup</div>
+  <div class="response" >rasa: yoooooo wasgoingawn Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</div>
 </div>
-</section>
 </div>
+</div>
+<div id="canvascont"></div>
 
 <script src="./js/code.js"></script>
+<script type="text/javascript" src="js/extra/gl-matrix-min.js"></script>
+<script type="text/javascript" src="js/extra/litegl.js"></script>
+<script type="text/javascript" src="js/extra/rendeer.js"></script>
+<script type="text/javascript" src="js/extra/wbin.js"></script>
+<script type="text/javascript" src="js/extra/walkarea.js"></script>
+<script type="text/javascript" src="./js/canvas.js"></script>
+<script>init();</script>
 </body>
 </html>
 
