@@ -3,6 +3,7 @@ version: "3.1"
 actions:
   - action_check_existence
   - action_lab_info
+  - action_get_curr_weather
 
 intents:
   - greet
@@ -16,6 +17,8 @@ intents:
   - find_number
   - get_all_groups
   - get_number_of_groups
+  - get_curr_weather
+  - get_cafeteria_information
 
 entities:
   - teacher_name
@@ -29,6 +32,9 @@ slots:
       - type: custom
 
 responses:
+  utter_cafeteria_information:
+    - text: "The cafeteria is located in the basement of the building 52. It's opened from 8 a.m. to 8 p.m."
+
   utter_number_of_groups:
     - text: "In this department you can find 22 groups."
 
@@ -41,7 +47,6 @@ responses:
       channel: "asr_transcription"
     - text: "hi from your custom channel!"
       channel: "voicechat"
-
 
   utter_cheer_up:
     - text: "Here is something to cheer you up:"
