@@ -10,10 +10,16 @@ from pathlib import Path
 from typing import Any, Text, Dict, List
 import pandas as pd
 import numpy as np
+import Levenshtein as lv
 
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet
+
+
+def levenshtein(array_to_search, dist, string):
+    # return list(map(lambda x: x<dist, map(lambda x: lv.distance(string, x), array_to_search)))
+    return [x for x in array_to_search if lv.distance(string, x) < dist]
 
 
 class ActionCheckExistence(Action):
@@ -57,10 +63,19 @@ class ActionCheckExistence(Action):
 
         if len(names) >= 1:
             entries = self.all_teachers[self.all_teachers['Full name'].str.contains(names[0].title())]
-
+ 
             if len(names) == 1 and names[0].title() == "Can":
                 dispatcher.utter_message(
                     text="Can you repeat that please?")
+            
+            if len(entries) == 0:
+                all_teacher_names = self.all_teachers["Full name"].tolist() + self.all_teachers["First name"].tolist() + self.all_teachers["Surname 1"].tolist() + self.all_teachers["Surname 2"].tolist()
+                all_teacher_names = [x for x in all_teacher_names if str(x) != 'nan']
+                for i in range(0, 5):
+                    fuzzy_names = levenshtein(all_teacher_names, i, names[0].title())
+                    if len(fuzzy_names) > 0:
+                        entries = self.all_teachers[self.all_teachers['Full name'].str.contains('|'.join(fuzzy_names))]
+                        break
 
             if len(entries) == 1:
                 dispatcher.utter_message(
