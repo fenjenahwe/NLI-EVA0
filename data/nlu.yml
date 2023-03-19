@@ -94,6 +94,7 @@ nlu:
       - so saad
       - so sad
       - angry
+      - say something
 
   - intent: bot_challenge
     examples: |
@@ -116,9 +117,18 @@ nlu:
       - i would like to know more about the department
       - i want to know about the department
       - what is this department?
+      - describe this department.
+      - what happens in this department?
+      - what research is done in this department?
+      - which fields are studied in this department?
+      - which topics does this department focus on?
+      - what are the areas of study of this department?
+      - what are the fields of the DTIC?
       - what's in this department?
       - back to the department
       - return to department
+      - what is the work of the DTIC?
+      - give me information about the department.
 
   - intent: get_all_groups
     examples: |
@@ -129,6 +139,7 @@ nlu:
       - Tell me about the groups
       - tell me again about the groups
       - list the groups for me
+      - i want information about the groups
       - show me the groups again
       - I'd like to know which groups are here.
       - Please give me all the groups in this department.
@@ -405,5 +416,17 @@ nlu:
       - who leads this department?
       - who runs the department of information and communications technologies?
       - who is the director here?
+
+  - intent: general_info
+    examples: |
+      - what can I ask you about?
+      - what do you know?
+      - what should i ask you?
+      - what information can you share?
+      - what are you able to tell me
+      - tell me what you know
+      - remind me what i can ask you
+      - what info can you show me
+      - how much do you know
       
       

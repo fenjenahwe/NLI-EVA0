@@ -136,3 +136,8 @@ stories:
     steps:
       - intent: get_map
       - action: utter_map
+
+  - story: ask about general info
+    steps:
+      - intent: general_info
+      - action: utter_general_info
