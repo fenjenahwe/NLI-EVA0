@@ -147,21 +147,26 @@ function init()
 			{	
 				anim = animations.waving;
 			}
-			else if(res.response_transcription.includes("22 groups"))
-			{
-				anim = animations.talking;
-			}
 			else if(res.response_transcription.includes("teaching staff"))
 			{
 				anim = animations.headnod;
 			}
-			else if(res.response_transcription.includes("cheer"))
+			else if(res.response_transcription.includes("cheer") || res.response_transcription.includes("is a map"))
 			{
 				anim = animations.pointing;
 			}
 			else if(res.response_transcription.includes("found multiple"))
 			{
 				anim = animations.headshake;
+			}
+			else if (Chat.stopaudio == 1)
+			{
+				anim = animations.idle;
+				Chat.stopaudio = 0;
+			}
+			else
+			{
+				anim = animations.talking;
 			}
 
 		}

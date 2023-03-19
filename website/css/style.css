@@ -212,6 +212,21 @@ border-radius: 1em;
   border-radius: 15%;
 }
 
+#okthx {
+  width: fit-content;
+  height: fit-content;
+  padding: 5px;
+  border: 1px solid green;
+  background-color: greenyellow;
+  color: black;
+  position: absolute;
+  bottom:45%;
+  right: 30%;
+  border-radius: 1em;
+  cursor: pointer;
+  box-shadow: 0 0 50px 15px #48abe0;
+}
+
 .sendmessage {
   background-color: #d18bffa3;
   border: 1px solid white;

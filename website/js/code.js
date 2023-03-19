@@ -4,6 +4,7 @@
 var Chat = {
 
     response: null,
+    stopaudio: null,
 
     init: function () {
         const record = document.querySelector("#mic");
@@ -93,10 +94,18 @@ var Chat = {
                         audio.src = source;
                         audio.autoplay = true;
                         audio.defaultPlaybackRate = 1.3;
+                        var okthx = document.querySelector('#okthx');
+                        okthx.style.display = "block";
                         audio.load()
-                        audio.addEventListener("load", function() { 
-                        audio.play(); 
+                        audio.addEventListener("load", function() {               
+                        audio.play();
                         }, true);
+                        okthx.addEventListener("click", function() {
+                            audio.pause();
+                            okthx.style.display = "none";
+                            Chat.stopaudio = 1;
+                            Chat.response = null;
+                            }); 
                         
                         if (responseData.response_transcription.includes("cheer"))
                             {
@@ -106,7 +115,8 @@ var Chat = {
                                 imgcont.appendChild(img);
                             }
                         audio.addEventListener("ended", function() {
-                        Chat.response.response_transcription = '';
+                        Chat.response = null;
+                        okthx.style.display = "none";
                         }, true);
 
                         showResponse();
