@@ -28,29 +28,65 @@ stories:
       - intent: deny
       - action: utter_goodbye
 
-  - story: ask about teacher
+  - story: ask about teacher and then group
     steps:
       - intent: greet
       - action: utter_greet
       - intent: confirm_exists
       - action: action_check_existence
+      - intent: find_group_info
+      - action: action_lab_info
 
   - story: ask about lab
     steps:
       - intent: greet
       - action: utter_greet
-      - intent: find_number
+      - intent: find_group_number
       - action: action_lab_info
+      - intent: find_group_info
+      - action: action_lab_info
+      - intent: find_group_head
+      - action: action_lab_info
+
+  - story: ask about programmes
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: find_programs_info
+      - action: utter_totalgrad
+      - intent: list_bsc
+      - action: utter_bsc
+      - intent: list_msc
+      - action: utter_msc
+
+  - story: ask about a degree
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: find_degree_info
+      - action: action_degree_info
+      - intent: find_credit_info
+      - action: action_degree_info
+      - intent: find_duration_info
+      - action: action_degree_info
 
   - story: ask about the number of groups in the department
     steps:
       - intent: get_number_of_groups
       - action: utter_number_of_groups
+      - intent: find_group_info
+      - action: action_lab_info
+      - intent: find_group_head
+      - action: action_lab_info
+      - intent: find_group_number
+      - action: action_lab_info
 
   - story: ask which groups are part of the department
     steps:
       - intent: get_all_groups
       - action: utter_all_groups
+      - intent: find_group_info
+      - action: action_lab_info
 
   - story: ask about the weather
     steps:

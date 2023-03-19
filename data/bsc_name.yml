@@ -1,0 +1,28 @@
+version: "3.1"
+
+nlu:
+  - lookup: bsc_name
+    examples: |
+      - Biomedical Engineering
+      - biomedicine
+      - bioengineering
+      - Computer Engineering
+      - CE
+      - computer science
+      - Telecommunications Network Engineering
+      - telecommunications 
+      - telecom
+      - network engineering
+      - telecom network
+      - telecom engineering
+      - Audiovisual Systems Engineering
+      - audiovisual systems
+      - audiovisual engineering
+      - systems engineering
+      - AV
+      - audiovisual
+      - Mathematical Engineering in Data Science
+      - mathematical engineering
+      - data science
+      - mathematical eng
+      - math engineering in data science

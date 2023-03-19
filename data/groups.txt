@@ -1,11 +1,11 @@
-AI&ML: Artificial Intelligence and Machine Learning group
+AI & ML: Artificial Intelligence and Machine Learning group
 BERG Biomedical Electronics Research Group
 CMTECH: Cognitive Media Technologies Group
-Computational Neuroscience
+CNS: Computational Neuroscience
 IP4EC: Image processing for enhanced cinematography
 IPG: Image Processing Group
 ITC: Information Theory and Coding Group
-ITG: Interactive Technologies Group
+GTI: Interactive Technologies Group
 MTG: Music Technology Group
 PHONOS
 Natural Language Processing

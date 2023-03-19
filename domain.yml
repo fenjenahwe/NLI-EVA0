@@ -4,6 +4,7 @@ actions:
   - action_check_existence
   - action_lab_info
   - action_get_curr_weather
+  - action_degree_info
 
 intents:
   - greet
@@ -14,16 +15,28 @@ intents:
   - mood_unhappy
   - bot_challenge
   - confirm_exists
-  - find_number
+  - find_group_number
   - get_all_groups
   - get_number_of_groups
   - get_curr_weather
   - get_cafeteria_information
+  - find_group_info
+  - find_group_head
+  - find_programs_info
+  - find_ug_info
+  - find_grad_info
+  - list_bsc
+  - list_msc
+  - find_credit_info
+  - find_duration_info
+  - find_degree_info
 
 entities:
   - teacher_name
   - PERSON
   - group_name
+  - bsc_name
+  - msc_name
 
 slots:
   slot_group:
@@ -36,13 +49,14 @@ responses:
     - text: "The cafeteria is located in the basement of the building 52. It's opened from 8 a.m. to 8 p.m."
 
   utter_number_of_groups:
-    - text: "In this department you can find 22 groups."
+    - text: "In this department you can find 18 groups. The department has a highly interdisciplinary research environment with faculty interests covering a range of topics that can be broadly grouped into five areas:
+    Multimedia Technologies, Computational Biology and Biomedical Systems, Networks and Communications, Computation and Intelligent Systems, Brain and Cognition. You can ask me about the groups."
 
   utter_all_groups:
-    - text: "The 22 groups are as follows: AI&ML, BERG, CMTECH, Computational Neuroscience, IP4EC, IPG, ITC, ITG, MTG, PHONOS, Natural Language Processing, NETS, NTSA, Physense, Research Service, SIMBIOsys, TALN, TIDE, UBICALAB, UGA TIC, WN, WSSC"
+    - text: "The 18 groups are: AI&ML, BERG, CMTECH, CNS, IP4EC, IPCV, ITC, GTI, MTG, NETS, NTSA, Physense, SIMBIOsys, TALN, TIDE, UBICALAB, WN, WSSC. You can ask me for more information about each one."
 
   utter_greet:
-    - text: "Hey, welcome to the Department of Information and Communications Technologies (DTIC)! You can ask me about the staff and the groups in this department."
+    - text: "Hey, welcome to the Department of Information and Communications Technologies (DTIC)! You can ask me about the department and its people, groups, and programs. How can I assist you?"
 
   utter_cheer_up:
     - text: "Here is something to cheer you up:"
@@ -58,7 +72,17 @@ responses:
     - text: "Bye bye"
 
   utter_iamabot:
-    - text: "I am a bot, powered by Rasa."
+    - text: "I am a bot."
+
+  utter_totalgrad:
+    - text: "The DTIC offers 5 Bachelor's degrees and 5 Research Masters degrees. You can ask me more about them."
+
+  utter_bsc:
+    - text: "The undegraduate programs of the DTIC are: Bachelor's degree in Biomedical Engineering, Bachelor's degree in Computer Engineering, Bachelor's degree in Telecommunications Network Engineering, Bachelor's degree in Audiovisual Systems Engineering, Bachelor's degree in Mathematical Engineering in Data Science. You can ask me more about each one."
+
+  utter_msc:
+    - text: "The graduate programs of the DTIC are: Master in Sound and Music Computing, Master in Cognitive Systems and Interactive Media, Master in Intelligent Interactive Systems, Master in Brain and Cognition, Computational Biomedical Engineering Master. You can ask me more about each one."
+
 
   utter_group_slot:
     - text: "Would you like to know more about {slot_group}"

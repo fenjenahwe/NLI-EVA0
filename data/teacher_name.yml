@@ -682,9 +682,6 @@ nlu:
       - Amélie
       - Améline
       - Amélya
-      - An
-      - An-Katrien
-      - An-Sofie
       - Ana
       - Ana-Maria
       - Anab
@@ -3036,10 +3033,7 @@ nlu:
       - Elouan
       - Elouise
       - Eloy
-      - Eloïse
-      - Els
       - Elsa
-      - Else
       - Elsie
       - Elsje
       - Elske
@@ -4993,7 +4987,6 @@ nlu:
       - Innocent
       - Insaf
       - Inssaf
-      - Inte
       - Inti
       - Intisar
       - Intissar
@@ -6493,7 +6486,6 @@ nlu:
       - Liridon
       - Liridona
       - Lirije
-      - Lis
       - Lisa
       - Lisa-Marie
       - Lisandro
@@ -6796,7 +6788,6 @@ nlu:
       - Lê
       - Lütfi
       - Lütfiye
-      - M
       - MBarek
       - MBark
       - MBarka
@@ -7890,7 +7881,6 @@ nlu:
       - Monsif
       - Montserrat
       - Moon
-      - Mor
       - Morad
       - Moran
       - Morane
@@ -10780,7 +10770,6 @@ nlu:
       - Sumeyye
       - Sumit
       - Summer
-      - Sun
       - Suna
       - Sunay
       - Sunday
@@ -11172,7 +11161,6 @@ nlu:
       - Tjorven
       - Tjörven
       - Tlaitmas
-      - To
       - Toader
       - Tobe
       - Tobi
@@ -12444,7 +12432,6 @@ nlu:
       - DIANA MICHELLE
       - MARIA
       - RICARDO ALBERTO
-      - ab
       - abbad
       - abbas
       - abd
@@ -17356,7 +17343,6 @@ nlu:
       - ancilla
       - anco
       - ancu
-      - and
       - anda
       - ande
       - andele
@@ -20520,9 +20506,6 @@ nlu:
       - campbell
       - camron
       - camryn
-      - can
-      - cana
-      - canalp
       - canan
       - canberk
       - candace
@@ -20550,8 +20533,6 @@ nlu:
       - canko
       - cankut
       - cannelle
-      - cano
-      - cans
       - cansel
       - cansever
       - cansu
@@ -23939,7 +23920,6 @@ nlu:
       - elsbe
       - elsbeth
       - elsche
-      - else
       - elsebet
       - elsebeth
       - elselien
@@ -28050,8 +28030,6 @@ nlu:
       - haxherije
       - haxhi
       - haxhire
-      - hay
-      - haya
       - hayam
       - hayat
       - hayati
@@ -28508,7 +28486,6 @@ nlu:
       - heulwen
       - heung
       - hew
-      - hey
       - heydar
       - heye
       - heyko
@@ -33831,7 +33808,6 @@ nlu:
       - louvenia
       - louwra
       - louwrens
-      - love
       - lovel
       - loveleen
       - lovie
@@ -38317,7 +38293,6 @@ nlu:
       - ondine
       - ondino
       - ondrej
-      - one
       - oneal
       - onel
       - onela
@@ -38327,7 +38302,6 @@ nlu:
       - onesia
       - onesta
       - onesto
-      - oni
       - onica
       - oniga
       - onik
@@ -42595,8 +42569,6 @@ nlu:
       - shmoolik
       - shmuel
       - shmuela
-      - shmulik
-      - sho
       - shoba
       - shobha
       - shobhna
@@ -43882,7 +43854,6 @@ nlu:
       - sumiteru
       - sumitra
       - sumru
-      - sun
       - suna
       - sunanda
       - sunay
@@ -44284,7 +44255,6 @@ nlu:
       - takayo
       - takayoshi
       - takayuki
-      - take
       - takeaki
       - takefumi
       - takehiko
@@ -47486,7 +47456,6 @@ nlu:
       - wioletta
       - wisam
       - wisse
-      - wit
       - wita
       - witali
       - witalij
@@ -49080,7 +49049,6 @@ nlu:
       - anash
       - anayatha
       - anchal
-      - and
       - andhav
       - aneeta
       - anekha
@@ -50337,7 +50305,6 @@ nlu:
       - foolmati
       - foolmaya
       - foolwati
-      - for
       - foranta
       - foranti
       - fornta
@@ -51723,8 +51690,6 @@ nlu:
       - lokendra
       - lokesh
       - lokindra
-      - long
-      - love
       - lovely
       - lovly
       - lucki
@@ -51969,7 +51934,6 @@ nlu:
       - masoom
       - mast
       - mastan
-      - master
       - masum
       - masuma
       - mata
@@ -52693,7 +52657,6 @@ nlu:
       - omprkesh
       - omveer
       - omwati
-      - one
       - onginye
       - opendar
       - osier
@@ -57858,7 +57821,6 @@ nlu:
       - elpidia
       - elpidio
       - elsa
-      - else
       - elsia
       - elsina
       - elsino
@@ -62234,7 +62196,6 @@ nlu:
       - ovanda
       - ovelia
       - ovelio
-      - over
       - oves
       - ovidia
       - ovidio
@@ -64441,7 +64402,6 @@ nlu:
       - aayan
       - aayden
       - aayush
-      - ab
       - abagail
       - abbagail
       - abbas
@@ -64724,7 +64684,6 @@ nlu:
       - ahtziri
       - ahtziry
       - ahuva
-      - ai
       - aicha
       - aida
       - aidan
@@ -64832,7 +64791,6 @@ nlu:
       - akshita
       - akua
       - akyra
-      - al
       - alaa
       - alacia
       - alahna
@@ -65393,7 +65351,6 @@ nlu:
       - amyri
       - amyria
       - amyrie
-      - an
       - ana
       - anaalicia
       - anabel
@@ -68692,7 +68649,6 @@ nlu:
       - dayton
       - dayvion
       - dayvon
-      - de
       - dea
       - deacon
       - deadra
@@ -75522,7 +75478,6 @@ nlu:
       - lourdes
       - lourie
       - louvenia
-      - love
       - lovell
       - lovella
       - lovely
@@ -80188,7 +80143,6 @@ nlu:
       - shmiel
       - shmuel
       - shneur
-      - sho
       - shoichi
       - shoji
       - sholem
@@ -80409,7 +80363,6 @@ nlu:
       - soren
       - sostenes
       - sotero
-      - sou
       - soua
       - souleymane
       - soyla
@@ -80559,7 +80512,6 @@ nlu:
       - sumiye
       - summer
       - sumner
-      - sun
       - sunday
       - sundeep
       - sundra

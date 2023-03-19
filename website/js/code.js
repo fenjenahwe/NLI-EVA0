@@ -92,6 +92,7 @@ var Chat = {
                         var audio = document.createElement("audio");
                         audio.src = source;
                         audio.autoplay = true;
+                        audio.defaultPlaybackRate = 1.3;
                         audio.load()
                         audio.addEventListener("load", function() { 
                         audio.play(); 

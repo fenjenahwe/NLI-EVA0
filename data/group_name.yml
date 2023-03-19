@@ -5,6 +5,7 @@ nlu:
     examples: |
       - AI&ML: Artificial Intelligence and Machine Learning group
       - AI&ML
+      - AI & ML
       - Artificial Intelligence and Machine Learning group
       - Artificial Intelligence Lab
       - Artificial Intelligence group
@@ -21,6 +22,7 @@ nlu:
       - BERG: Biomedical Electronics Research Group
       - BERG group
       - BERG lab
+      - BERG
       - Biomedical Electronics Research Group
       - Biomedical lab
       - Biomedical group
@@ -41,11 +43,18 @@ nlu:
       - Music tech
       - Music tech group
       - Computational Neuroscience
+      - Computational Neuroscience group
+      - Computational Neuroscience lab
+      - CNS
+      - CNS group
+      - CNS lab
       - IP4EC Image processing for enhanced cinematography
       - IP4EC
       - IP4EC group
       - IP4EC lab
       - Image processing group
+      - IPCV
+      - Image Processing and Computer Vision Group
       - Image processing lab
       - Image processing for enhanced cinematography
       - Image processing for enhanced cinematography lab
@@ -66,22 +75,17 @@ nlu:
       - Coding Group
       - Coding lab
       - Information Theory Lab
-      - ITG: Interactive Technologies Group
-      - ITG
-      - ITG lab
-      - ITG group
+      - GTI: Interactive Technologies Group
+      - GTI lab
+      - GTI group
+      - GTI
       - Interactive Technologies Group
       - Interactive Technologies Lab
       - MTG: Music Technology Group
-      - MTG: Music Technology Group / PHONOS
-      - PHONOS
-      - PHONOS lab
-      - PHONOS group
+      - MTG: Music Technology Group
       - Natural Language Processing
       - Natural Language Processing group
       - Natural Language Processing lab
-      - NLP group
-      - NLP lab
       - NETS Network Technologies and Strategies Group
       - NETS
       - NETS group
@@ -124,17 +128,8 @@ nlu:
       - UBICALAB
       - Ubiquitous Computing Applications Lab
       - Ubiquitous Computing Applications group
-      - UGA TIC: Pedagogue in USQUID
-      - UGA TIC
-      - UGA TIC: Head of the Management and Administration Unit
-      - UGA TIC: Polytechnic School
-      - UGA TIC: Polytechnic School Coordinator
-      - UGA TIC: Recruitment, Docorate & International ETIC
-      - UGA TIC: Recruitment, Docorate & International ETIC Coordinator
-      - UGA TIC: Recruitment, Doctorate & International ETIC
-      - UGA TIC: Research, Promotion & Activities
-      - UGA TIC: Research, Promotion & Activities Coordinator
       - WN: Wireless Networking Group
+      - WN
       - Wireless Networking Group
       - Wireless Networking lab
       - Wireless Networking
