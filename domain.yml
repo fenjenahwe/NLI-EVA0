@@ -59,7 +59,7 @@ responses:
   utter_location:
     - text: "You are currently in the Tanger building, number 55, of the Poblenou Campus of the UPF. This building is open weekdays from 8 am to 10 pm."
 
-  utter_reception_information:
+  utter_reception_info:
     - text: "The campus reception is located at the ground floor of the Roc Boronat building, number 52. It's open weekdays from 11 a.m. to 2 p.m. and from 3 p.m. to 6 p.m."
 
 
