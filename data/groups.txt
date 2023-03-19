@@ -1,4 +1,4 @@
-AI & ML: Artificial Intelligence and Machine Learning group
+AI&ML: Artificial Intelligence and Machine Learning group
 BERG Biomedical Electronics Research Group
 CMTECH: Cognitive Media Technologies Group
 CNS: Computational Neuroscience

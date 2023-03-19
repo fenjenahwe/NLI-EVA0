@@ -51,7 +51,7 @@ class ActionLabInfo(Action):
 
                 if description_intent == 1:
                     dispatcher.utter_message(
-                        text=f"{entries.iloc[0]['group_description']}. For more information, you can visit the group's website: {entries.iloc[0]['group_link']}.")
+                        text=f"{entries.iloc[0]['group_description']} For more information, you can visit the group's website: {entries.iloc[0]['group_link']}.")
                     description_intent = 0
                 if number_intent == 1:
                     dispatcher.utter_message(
