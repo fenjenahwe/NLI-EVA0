@@ -47,6 +47,8 @@ stories:
       - action: action_lab_info
       - intent: find_group_head
       - action: action_lab_info
+      - intent: confirm_exists
+      - action: action_check_existence
 
   - story: ask about programmes
     steps:
@@ -69,6 +71,14 @@ stories:
       - action: action_degree_info
       - intent: find_duration_info
       - action: action_degree_info
+      - intent: find_degree_info
+      - action: action_degree_info
+      - intent: find_programs_info
+      - action: utter_totalgrad
+      - intent: list_bsc
+      - action: utter_bsc
+      - intent: list_msc
+      - action: utter_msc
 
   - story: ask about the number of groups in the department
     steps:
@@ -80,6 +90,8 @@ stories:
       - action: action_lab_info
       - intent: find_group_number
       - action: action_lab_info
+      - intent: confirm_exists
+      - action: action_check_existence
 
   - story: ask which groups are part of the department
     steps:
@@ -93,7 +105,34 @@ stories:
       - intent: get_curr_weather
       - action: action_get_curr_weather
 
+  - story: thanks
+    steps:
+      - intent: thank
+      - action: utter_thanks
+
   - story: ask about the cafeteria
     steps:
       - intent: get_cafeteria_information
       - action: utter_cafeteria_information
+
+  - story: ask about the library
+    steps:
+      - intent: get_library_information
+      - action: utter_library_information
+
+  - story: ask about current location
+    steps:
+      - intent: get_current_location
+      - action: utter_location
+
+  - story: ask about department director
+    steps:
+      - intent: get_dept_director
+      - action: utter_dept_director
+      - intent: confirm_exists
+      - action: action_check_existence
+
+  - story: ask about map
+    steps:
+      - intent: get_map
+      - action: utter_map

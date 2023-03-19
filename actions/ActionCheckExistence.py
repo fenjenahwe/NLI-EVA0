@@ -58,7 +58,7 @@ class ActionCheckExistence(Action):
             for group in self.all_groups:
                 if groups[0].upper() in group.upper():
                     group_found = True
-                    dispatcher.utter_message(text="The " + group + " is part of the DTIC department. You can always ask me more about the group's research and its researchers.")
+                    dispatcher.utter_message(text="The " + group + " is part of the DTIC department. You can always ask me more about the group's research and director.")
             if not group_found:
                 dispatcher.utter_message("I was not able to find a group for the search term " + groups[0] + ". Sorry for the inconvenience!")
 

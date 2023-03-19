@@ -1,0 +1,236 @@
+version: "3.1"
+
+nlu:
+  - lookup: current_staff_name
+    examples: |
+      - Jorge Lobo
+      - Jerome Gasparrini Marco
+      - Vicente Gomez Cerda
+      - Vicenc Gomez Cerda
+      - Anders Jonsson
+      - Gergely Neu
+      - Marti Sanchez Fibla
+      - Victor Dalmau Lloret
+      - Vladimir Estivill Castro
+      - Pablo Aragon Asenjo
+      - Joan Bas Serrano
+      - Silvia Butti
+      - Iuliia Olkhovskaia
+      - Gaston Rozado Nicolas
+      - Lorenzo Steccanella
+      - Damien Allonsius
+      - Berkay Demirel
+      - Ana Gonzalez Suarez
+      - Javier Aguirre Olcoz
+      - Quim Castellvi
+      - Albert Comerma Montells
+      - Tomas Garcia Sanchez
+      - Aracelys Garcia Moreno
+      - Laura Becerra Fajardo
+      - Ahmed Fayez Saad Mohamed Eladly Eladly
+      - Borja Mercadal Cavaller
+      - Jesus Minguillon Campos
+      - Marc Tudela Pi
+      - Guillermo Jimenez Perez
+      - Rocio Lopez Velazco
+      - Enric Perera I Bel
+      - Antonio Ivorra Cano
+      - Dinyar Arsiwalla Xerxes
+      - Riccardo Zucca
+      - Ciera Crowell
+      - Laura Malinverni
+      - Joan Mora Guiard
+      - Marie-Monique Schaper
+      - Decky Latif
+      - Oriol Martinez Pujol
+      - Xavier Binefa Valls
+      - Adriana Fernandez Lopez
+      - Gerald Hahn
+      - Maria De Araceli Morales Munoz
+      - Mateo Sukno Federico
+      - Narcis Pares Burgues
+      - Batuhan Sayis
+      - Ernest Montbrio Fairen
+      - Marcelo Jose Bertalmio Barate
+      - Dalton Canham Trevor
+      - Praveen Cyriac
+      - Raquel Gil Rodriguez
+      - Alexander Gomez Villa
+      - Itziar Zabaleta Razquin
+      - Adrian Martin Fernandez
+      - Adria Arbues Sanguesa
+      - Adrian Fernando Ponce Alvarez
+      - Patricia Vitoria Carrera
+      - Coloma Maria Ballester Nicolau
+      - Gloria Haro Ortega
+      - Lara Raad Cisa
+      - Juan Francisco Garamendi Bragado
+      - Juan Felipe Montesinos Garcia
+      - Venkatesh Shenoy Kadandale
+      - Olga Slizovskaia
+      - Josep Font Segura
+      - Alfonso Martinez Vicente
+      - Ivano Colombaro
+      - Arezou Rezazadeh
+      - Sergio Barrachina Munoz
+      - Albert Guillen Fabregas
+      - Sebastian Roberto Marichal Baraibar
+      - Javier Agenjo Asensio
+      - Irum Baseer
+      - Maria Bosser Carenys
+      - Beatriz Cabrero Daniel
+      - Joaquim Colas Alvarez
+      - Jorge Marques Ricardo
+      - Judit Martinez Moreno
+      - Hermann Plass Portulas
+      - Jose Angel Blat Gimeno
+      - Philip Tovstogan
+      - Furkan Yesiler Mehmet
+      - Rafael Caro Repetto
+      - Vsevolod Eremenko
+      - Ninad Puranik
+      - Antonio Filipe Santana Ramires
+      - Tiange Zhu
+      - David Cabrera
+      - Andrew Correya Albin
+      - Xavier Favory
+      - Andres Ferraro
+      - Eduardo David Fonseca Montero
+      - Frederic Font Corbera
+      - Sergio Oramas Martin
+      - Stewart Porter Alastair
+      - Pablo Alonso Jimenez
+      - Dmitry Bogdanov
+      - Jordi Pons Puig
+      - Minz Won
+      - Merlijn Blaauw
+      - Jordi Bonada Sanjaume
+      - Marti Umbert Morist
+      - Aggelos Gkiokas
+      - Marius Miron
+      - Alfonso Antonio Perez Carrillo
+      - Emilia Gomez Gutierrez
+      - Enrique Guaus Termens
+      - Agustin Martorell Dominguez
+      - Sergio Ivan Giraldo Mendez
+      - Rafael Ramirez Melendez
+      - Zacharias Vamvakousis
+      - Helena Cuesta Mussarra
+      - Juan Sebastian Gomez Canon
+      - Perfecto Jose Herrera Boyer
+      - Lorenzo Porcaro
+      - Joan Serra Julia
+      - Angel-David Blanco Casares
+      - Azadeh Faridi Ermagan
+      - Sonia Espi Fernandez
+      - Cristina Garrido Franquet
+      - Francesc Xavier Serra Casals
+      - Sergi Jorda Puig
+      - Osiander Andres Lewin Richter
+      - Angel Faraldo Perez
+      - Leo Wanner
+      - Horacio Saggion
+      - Miquel Oliver Riera
+      - Gregor Andrzejak Ralph
+      - Federico Devalle
+      - Cristina Gonzalez Martinez
+      - Irene Malvestio
+      - Ogbugwa Ochugboju Angela
+      - Giulia Ruzzene
+      - Judit Chamorro Servent
+      - Marta Guardiola Garcia
+      - Carlos Yague Mendez
+      - Ruben Doste Beltran
+      - Gerard Marti Juan
+      - Mariana Nogueira
+      - Cecilia Maria Costa Bento Sousa Nunes
+      - Morteza Rasouligandomani
+      - Oscar Camara Rey
+      - Bart H Bijnens
+      - Paloma Benavent Climent
+      - Belen Pascual Molina
+      - Manuel Ronda Carrasco
+      - Miguel Angel Gonzalez Ballester
+      - Mario Ceresa
+      - Nerea Mangado Lopez
+      - Katharina Heil
+      - Karim Lekadir
+      - Bernard Noailly Jerome
+      - Andy Luis Olivares Miyares
+      - Carlos Eduardo Ruiz Wills
+      - Simone Tassani
+      - Sergio Sanchez Martinez
+      - Jordina Torrents Barrena
+      - Laura Baumgartner
+      - Victor Manuel Campello Roman
+      - Irem Cetin
+      - Amelia Jimenez Sanchez
+      - Eric Lluch Alvarez
+      - Pablo-Miki Marti Castellote
+      - Gema Piella Fenoy
+      - Joan Codina Filba
+      - Alp Oktem Hamdi
+      - Mireia Farrus Cabeceran
+      - Ghassan Tawfiq Abura'Ed Ahmed
+      - Francesco Barbieri
+      - Giorgia Cistola
+      - Alex Peiro Lilja
+      - Roberto Juan Carlini Salguero
+      - Carla Ten Ventura
+      - Jens Grivolla
+      - Bosque Gerard Casamayor Del
+      - Alexandra-Catalina Matreata
+      - Mariella Dimiccoli
+      - Beatriz Fisas Elizalde
+      - Alexander Shvets
+      - Pablo Accuosto
+      - Alex Bravo Serrano
+      - Cheng Sheang Kim
+      - Laia Albo
+      - Ishari Amarasinghe
+      - Yoshimi Beardsley Marc
+      - Milica Vujovic
+      - Pascual Pablo Abenia Polo
+      - Davinia Hernandez Leo
+      - Patricia Santos Rodriguez
+      - Enric Peig Olive
+      - Joan Antoni Melia Segui
+      - Rafael Pous Andres
+      - Victor Casamayor Pujol
+      - Veronica Moreno Oliver
+      - Judith Champion Colell
+      - Nuria Figuls Fernandez
+      - Montserrat Jaureguizar Salas
+      - Maria Lourdes Ventayol Borras
+      - Montiel Marta
+      - Lydia Garcia Escobosa
+      - Jana Safrankova
+      - Maria Montserrat Brillas Rosell
+      - Barrio Nuria
+      - Montserrat Serrano Raguan
+      - Pino Patricia
+      - Joana Clotet Sule
+      - Llopis Xavier Monte
+      - Vanessa Jimenez Garcia
+      - Hemchandra Adhikari Mohit
+      - Boris Bellalta Jimenez
+      - Francisco Jose Wilhelmi Roca
+      - Federico Franzoni
+      - Rasoul Nikbakht Silab
+      - Zaira Pindado Tost
+      - Xavier Salleras Soler
+      - Javier Silva Velon
+      - Vanesa Daza Fernandez
+      - Carla Rafols Salvador
+      - Angel Lozano Solsona
+      - Antonio Adame Vazquez
+      - Albert Bel Pereira
+      - Marc Carrascosa Zamacois
+      - Alejandro Alcaine Otin
+      - Carlos Alberto Castillo Ocaranza
+      - Ana Maria Alejandro Freire Veiga
+      - Santiago Galella Toledo
+      - Marzieh Karimihaghighi
+      - Diana Michelle Ramirez Cifuentes
+      - Maria Rauschenberger
+      - Ricardo Alberto Baeza Yates

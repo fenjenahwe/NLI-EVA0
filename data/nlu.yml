@@ -32,6 +32,15 @@ nlu:
       - bye bye
       - see you later
 
+  - intent: thank
+    examples: |
+      - thx
+      - thank u
+      - thank you!
+      - thanks
+      
+  
+
   - intent: affirm
     examples: |
       - yes
@@ -147,10 +156,14 @@ nlu:
       - how do I get to [leo](teacher_name)'s office?
       - how can I meet with [leo](teacher_name).
       - I have a meeting with [leo](teacher_name).
-      - I'm meeting with [leo](teacher_name).
+      - I'm meeting with dr. [leo](teacher_name).
+      - I need to find professor [leo](teacher_name).
+      - on what floor can i find prof. [leo](teacher_name).
+      - what's the office number of teacher [leo](teacher_name).
       - is [MARIUS](teacher_name) a part of the staff?
       - tell me more about [MARIA](teacher_name).
-      - tell me about [MARIA](teacher_name).
+      - tell me about [vladimir estivill castro](current_staff_name).
+      - tell me more about [vladimir estivill castro](current_staff_name).
       - Where can I find [GERGELY](teacher_name)?
       - Does [VICENC](teacher_name) belong to the [AI&ML](group_name)?
       - Does [JORGE](teacher_name) work in the [AI&ML](group_name)?
@@ -250,6 +263,8 @@ nlu:
       - let's go back to all the programs.
       - what are all of the studies offered?
       - what study programs do you have?
+      - show me the list of programs
+      - show me all programs here
 
   - intent: list_bsc
     examples: |
@@ -277,6 +292,7 @@ nlu:
       - I would like to know about the Bachelor's degree in [Biomedical Engineering](bsc_name).
       - Tell me more about the bsc. in [audiovisual systems engineering](bsc_name).
       - Tell me more about the [audiovisual systems engineering](bsc_name) bachelor.
+      - Tell me about the bsc in [audiovisual systems engineering](bsc_name).
       - What is the bachelors in [computer engineering](bsc_name) about?
       - What are the course of the undergrad in [Biomedical Engineering](bsc_name)?
       - tell me about the syllabus of the undergraduate degree in [Biomedical Engineering](bsc_name).
@@ -289,6 +305,8 @@ nlu:
       - I would like to know about the Master in [Sound and Music Computing](msc_name).
       - Tell me more about the msc. in [Cognitive Systems and Interactive Media](msc_name).
       - Tell me more about the [Cognitive Systems and Interactive Media](msc_name) master.
+      - Tell me about the degree in [Cognitive Systems and Interactive Media](msc_name).
+      - Tell me about the degree in [Audiovisual Systems Engineering](bsc_name).
       - What is the masters in [Cognitive Systems and Interactive Media](msc_name) about?
       - What are the course of the graduate course in [Cognitive Systems and Interactive Media](msc_name)?
       - tell me about the syllabus of the graduate studies in [Cognitive Systems and Interactive Media](msc_name).
@@ -298,6 +316,8 @@ nlu:
       - i'd like to learn about the research master in [Cognitive Systems and Interactive Media](msc_name).
       - do you have any information about the msc. in [Cognitive Systems and Interactive Media](msc_name).
       - share the details of the master program [Cognitive Systems and Interactive Media](msc_name).
+      - what is the master in [Cognitive Systems and Interactive Media](msc_name)?
+      - what is the bachelor in [Audiovisual Systems Engineering](bsc_name)?
 
   - intent: find_credit_info
     examples: |
@@ -340,3 +360,49 @@ nlu:
       - Tell me where I can get a beer around here?
       - Something to eat would be amazing.
       - What are the opening times of the cafeteria?
+      - where's the cafeteria?
+
+  - intent: get_library_information
+    examples: |
+      - is there a library nearby?
+      - where is the library?
+      - where can I find the library?
+      - does the department have a library?
+      - tell me about the library
+      - what time does the library open?
+      - how can i get to the UPF library?
+      - what building is the library in?
+
+  - intent: get_map
+    examples: |
+      - i'm lost
+      - is there a map of this university?
+      - do you have a map of the campus?
+      - where is building 52?
+      - where is building 50?
+      - where is building 51?
+      - where is building 53?
+      - where is building 54?
+      - where is building 55?
+      - how do I get there?
+      - which way should I go?
+      - show me a map please
+      - i need a map
+
+  - intent: get_current_location
+    examples: |
+      - where am i?
+      - what building is this?
+      - which building am i in?
+      - what is the number of this building?
+      - what is the name of the DTIC building?
+
+  - intent: get_dept_director
+    examples: |
+      - who is the director of the DTIC?
+      - who is the director of this department?
+      - who leads this department?
+      - who runs the department of information and communications technologies?
+      - who is the director here?
+      
+      

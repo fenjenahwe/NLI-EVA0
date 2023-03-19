@@ -11,6 +11,7 @@ intents:
   - goodbye
   - affirm
   - deny
+  - thank
   - mood_great
   - mood_unhappy
   - bot_challenge
@@ -30,6 +31,10 @@ intents:
   - find_credit_info
   - find_duration_info
   - find_degree_info
+  - get_library_information
+  - get_current_location
+  - get_dept_director
+  - get_map
 
 entities:
   - teacher_name
@@ -37,6 +42,7 @@ entities:
   - group_name
   - bsc_name
   - msc_name
+  - current_staff_name
 
 slots:
   slot_group:
@@ -46,7 +52,19 @@ slots:
 
 responses:
   utter_cafeteria_information:
-    - text: "The cafeteria is located in the basement of the building 52. It's opened from 8 a.m. to 8 p.m."
+    - text: "The cafeteria is located in the basement of the Roc Boronat building, number 52. It's opened from 8 a.m. to 8 p.m."
+
+  utter_location:
+    - text: "You are currently in the Tanger building, number 55, of the Poblenou Campus of the UPF. This building is open weekdays from 8 am to 10 pm."
+
+  utter_map:
+    - text: "Here is a map of the UPF Poblenou Campus for you. You are currently in the Tanger building, number 55."
+
+  utter_dept_director:
+    - text: "The current director of the DTIC is Vladimir Estivill Castro. You can ask me more about him."
+
+  utter_library_information:
+    - text: "You can find the library in the La Fabrica building, number 50. It is generally open weekdays from 8 am to 9 pm. In exam periods, the library opens Saturdays and holidays and hours are extended until 1 am. For more information about UPF libraries, you can visit this link: https://www.upf.edu/en/web/biblioteca-informatica/acces-a-la-biblioteca."
 
   utter_number_of_groups:
     - text: "In this department you can find 18 groups. The department has a highly interdisciplinary research environment with faculty interests covering a range of topics that can be broadly grouped into five areas:
@@ -56,7 +74,7 @@ responses:
     - text: "The 18 groups are: AI&ML, BERG, CMTECH, CNS, IP4EC, IPCV, ITC, GTI, MTG, NETS, NTSA, Physense, SIMBIOsys, TALN, TIDE, UBICALAB, WN, WSSC. You can ask me for more information about each one."
 
   utter_greet:
-    - text: "Hey, welcome to the Department of Information and Communications Technologies (DTIC)! You can ask me about the department and its groups and programs. I can also help you find the groups and office number of people you're looking for. How can I assist you?"
+    - text: "Hey, welcome to the Department of Information and Communications Technologies (DTIC)! You can ask me anything about the department and its groups and programs. I can also help you find people and places you're looking for. How can I assist you?"
 
   utter_cheer_up:
     - text: "Here is something to cheer you up:"
@@ -86,6 +104,9 @@ responses:
 
   utter_group_slot:
     - text: "Would you like to know more about {slot_group}"
+
+  utter_thanks:
+    - text: "You're welcome! You can always ask me more questions."
 
 session_config:
   session_expiration_time: 60
