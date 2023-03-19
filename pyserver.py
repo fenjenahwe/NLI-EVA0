@@ -126,7 +126,8 @@ async def text(request: Request):
     # TTS
     text = response.text
     print("text", text)
-    text = re.search("(?<=text\":\")(.*?)(?=\")", text).group()
+    text = re.search("(?<=text\":\")(.*?)(?=\")", text).group().replace("\\", "")
+    # text = re.search(r'(?<=text\\":\\")([^\\\\"]|\\\\.)*(?=\")', text).group().replace("\\\\", "\\")
     print(text)
     # if lang != 'en':
     #     # TRANSLATION

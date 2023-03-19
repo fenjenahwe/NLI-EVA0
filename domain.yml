@@ -64,7 +64,7 @@ responses:
 
 
   utter_general_info:
-    - text: "You can ask me about the department itself, information about the groups in the DTIC and their directors, information about specific people in the DTIC. You can also ask me about places like the library and the cafeteria. If you're lost, I can provide you with a map. If you need to know the weather, just ask!"
+    - text: "You can ask me about the department itself, information about the groups in the DTIC and their directors, information about specific people in the DTIC. You can also ask me about places like the library, reception and cafeteria. If you're lost, I can provide you with a map. If you need to know the weather, just ask!"
 
   utter_map:
     - text: "Here is a map of the UPF Poblenou Campus for you. You are currently in the Tanger building, number 55."

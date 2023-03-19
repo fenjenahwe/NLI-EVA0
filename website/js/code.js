@@ -256,7 +256,16 @@ var Chat = {
             res.innerHTML = "EVA: "+Chat.response.response_transcription;
             container.appendChild(res);
             container.scrollTop = 1000000;
-        }
+            if (res.innerHTML.includes("http")) {
+                const exp = /(https?:\/\/[^\s]+?)(?:\.(\s|$)|\s|$)/;
+                const match = res.innerHTML.match(exp);
+                const url = match[1];
+                res.style.cursor = "pointer";
+                res.addEventListener("click", function() {
+                    window.open(url)
+                    })
+                };
+            }
 
         function renderResponseImg() {
             txt = Chat.response.response_transcription;
@@ -300,6 +309,11 @@ var Chat = {
             if (txt.includes("554"))
             {
                 img.src = "./images/554.png";
+            }
+
+            if (txt.includes("You are currently"))
+            {
+                img.src = "./images/here.gif";
             }
 
             if (txt.includes("cafeteria"))
