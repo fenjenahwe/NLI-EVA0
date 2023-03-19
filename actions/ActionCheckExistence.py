@@ -80,7 +80,7 @@ class ActionCheckExistence(Action):
 
             if len(entries) == 1:
                 dispatcher.utter_message(
-                    text=f"{entries.iloc[0]['Full name']} is part of the DTIC teaching staff and works in the {entries.iloc[0]['Group belonging']}, office number {entries.iloc[0]['Office number']}. You can always ask me more about the group and its researchers.")
+                    text=f"{entries.iloc[0]['Full name']} is part of the DTIC teaching staff and works in the {entries.iloc[0]['Group belonging']}, office number {entries.iloc[0]['Office number']}. You can always ask me more about the group.")
                 return [SlotSet(key="slot_group", value=entries.iloc[0]['Group belonging'])]
             elif len(entries) > 1:
                 buttons = []

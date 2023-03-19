@@ -108,6 +108,8 @@ nlu:
       - i want to know about the department
       - what is this department?
       - what's in this department?
+      - back to the department
+      - return to department
 
   - intent: get_all_groups
     examples: |
@@ -127,6 +129,10 @@ nlu:
       - What groups are in the department of Information and Communications Technologies?
       - I would like to know the groups of the department.
       - I need a list of the groups in the department.
+      - Which groups are here?
+      - what groups are here?
+      - return to the groups
+      - let's go back to the groups
 
   - intent: confirm_exists
     examples: |
@@ -165,6 +171,7 @@ nlu:
       - Where can I find [JORGE](teacher_name)?
       - I need to know about the [IP4EC](group_name).
       - What's the office number of [ALBERT](teacher_name)?
+      - tell me more about [AI&ML](group_name) group.
 
   - intent: find_group_number
     examples: |
