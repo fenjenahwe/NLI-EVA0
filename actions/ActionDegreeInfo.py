@@ -7,7 +7,8 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 
 class ActionDegreeInfo(Action):
-    knowledge = pd.read_csv(Path("data/degrees.csv", encoding="ISO-8859-1"))
+    bsc_knowledge = pd.read_csv(Path("data/bsc_degrees.csv", encoding="ISO-8859-1"))
+    msc_knowledge = pd.read_csv(Path("data/msc_degrees.csv", encoding="ISO-8859-1"))
 
     def name(self) -> Text:
         return "action_degree_info"
@@ -18,10 +19,18 @@ class ActionDegreeInfo(Action):
 
         print(tracker.latest_message)
         names = []
+        bsc = False
+        msc = False
         for entity in tracker.latest_message["entities"]:
             print(entity)
-            if entity["entity"] == "msc_name" or entity["entity"] == "bsc_name":
+            if entity["entity"] == "msc_name":
                 names.append(entity["value"])
+                msc = True
+                print("msc is true")
+            if entity["entity"] == "bsc_name":
+                names.append(entity["value"])
+                bsc = True
+                print("bsc is true")
             if (entity["entity"] == "msc_name" or entity["entity"] == "msc_name") and not entity["value"].lower() in "\t".join(names).lower():
                 names.append(entity["value"])
         degree_intent = 0
@@ -40,27 +49,51 @@ class ActionDegreeInfo(Action):
 
         # if affirm_intent == 1:
 
-        for name in names:
-            name = name.replace("lab", "").replace("group", "").strip()
-            entries = self.knowledge[self.knowledge['low_name'].str.contains(name.lower())]
-
-            if len(entries) == 1:
-
+        # name = name.replace("lab", "").replace("group", "").strip()
+        bsc_entries = self.bsc_knowledge[self.bsc_knowledge['low_name'].str.contains(names[0].lower())]
+        msc_entries = self.msc_knowledge[self.msc_knowledge['low_name'].str.contains(names[0].lower())]
+        # print("bsc_entries", bsc_entries)
+        # print("msc_entries", msc_entries)
+        print("len bsc entries", len(bsc_entries))
+        print("len msc entries", len(msc_entries))
+        if (len(bsc_entries) == 1 and len(msc_entries) == 1) or len(bsc_entries) == 1 or len(msc_entries) == 1:
+            print(tracker.latest_message["text"])
+            if bsc is True and msc is True:
+                print("both in name")
+                if "bachelor" in tracker.latest_message["text"] or "bsc" in tracker.latest_message["text"] or "undergrad" in tracker.latest_message["text"]:
+                    msc = False
+                if "master" in tracker.latest_message["text"] or "msc" in tracker.latest_message["text"]:
+                    bsc = False
+            if bsc is True and msc is False:
+                print("bachelor in name")
                 if degree_intent == 1:
                     dispatcher.utter_message(
-                        text=f"{entries.iloc[0]['description']} For more information, you can visit the group's website: {entries.iloc[0]['degree_link']}. You can ask me about the duration and the credits of a program.")
+                        text=f"{bsc_entries.iloc[0]['description']} For more information, you can visit the group's website: {bsc_entries.iloc[0]['degree_link']}. You can ask me about the duration and the credits of a program.")
                     degree_intent = 0
                 if credit_intent == 1:
                     dispatcher.utter_message(
-                        text=f"The {entries.iloc[0]['degrees']} consists in {entries.iloc[0]['teaching_load']} credits. You can ask me about the duration of a program.")
+                        text=f"The {bsc_entries.iloc[0]['degrees']} consists in {bsc_entries.iloc[0]['teaching_load']} credits. You can ask me about the duration of a program.")
                     credit_intent = 0
                 if duration_intent == 1:
                     dispatcher.utter_message(
-                        text=f"The {entries.iloc[0]['degrees']} is a {entries.iloc[0]['duration']} program. You can ask me about the credits of a program.")
+                        text=f"The {bsc_entries.iloc[0]['degrees']} is a {bsc_entries.iloc[0]['duration']} program. You can ask me about the credits of a program.")
                     duration_intent = 0
-
-            else:
-                dispatcher.utter_message(text=f"I do not recognize {name}. Did you spell that correctly?")
+            if msc is True and bsc is False:
+                print("master in name")
+                if degree_intent == 1:
+                    dispatcher.utter_message(
+                        text=f"{msc_entries.iloc[0]['description']} For more information, you can visit the group's website: {msc_entries.iloc[0]['degree_link']}. You can ask me about the duration and the credits of a program.")
+                    degree_intent = 0
+                if credit_intent == 1:
+                    dispatcher.utter_message(
+                        text=f"The {msc_entries.iloc[0]['degrees']} consists in {msc_entries.iloc[0]['teaching_load']} credits. You can ask me about the duration of a program.")
+                    credit_intent = 0
+                if duration_intent == 1:
+                    dispatcher.utter_message(
+                        text=f"The {msc_entries.iloc[0]['degrees']} is a {msc_entries.iloc[0]['duration']} program. You can ask me about the credits of a program.")
+                    duration_intent = 0
+        else:
+            dispatcher.utter_message(text=f"I do not recognize {name}. Did you spell that correctly?")
 
         return []
 

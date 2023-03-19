@@ -147,6 +147,7 @@ nlu:
     examples: |
       - is [JORGE](teacher_name) a teacher in this department?
       - does [ANDERS](teacher_name) teach here?
+      - what is the biography of [vladimir estivill castro](current_staff_name)?
       - does [JORDI](teacher_name) have an office here?
       - is [JEROME](teacher_name) teaching here?
       - i'm looking for [jorge](teacher_name).
@@ -228,7 +229,7 @@ nlu:
       - I want to know more about [GTI](group_name) lab.
       - I want to know more about [GTI](group_name) group. 
       - Tell me about the research in the [GTI](group_name).
-      - Tell me about the research in the [GTI](group_name) group.
+      - Tell me about the research at the [GTI](group_name) group.
       - Tell me about the research in the [GTI](group_name) lab.
       - How about the [Physense](group_name)
       - What's the [Physense](group_name) about?

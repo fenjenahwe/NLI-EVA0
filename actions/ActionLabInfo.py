@@ -42,7 +42,6 @@ class ActionLabInfo(Action):
 
         # if affirm_intent == 1:
 
-
         for name in names:
             name = name.replace("lab", "").replace("group", "").strip()
             entries = self.knowledge[self.knowledge['low_name'].str.contains(name.lower())]
