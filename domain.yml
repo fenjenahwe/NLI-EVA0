@@ -50,13 +50,13 @@ responses:
 
   utter_number_of_groups:
     - text: "In this department you can find 18 groups. The department has a highly interdisciplinary research environment with faculty interests covering a range of topics that can be broadly grouped into five areas:
-    Multimedia Technologies, Computational Biology and Biomedical Systems, Networks and Communications, Computation and Intelligent Systems, Brain and Cognition. You can ask me about the groups."
+    Multimedia Technologies, Computational Biology and Biomedical Systems, Networks and Communications, Computation and Intelligent Systems, Brain and Cognition. You can always ask me about the groups and programs here."
 
   utter_all_groups:
     - text: "The 18 groups are: AI&ML, BERG, CMTECH, CNS, IP4EC, IPCV, ITC, GTI, MTG, NETS, NTSA, Physense, SIMBIOsys, TALN, TIDE, UBICALAB, WN, WSSC. You can ask me for more information about each one."
 
   utter_greet:
-    - text: "Hey, welcome to the Department of Information and Communications Technologies (DTIC)! You can ask me about the department and its people, groups, and programs. How can I assist you?"
+    - text: "Hey, welcome to the Department of Information and Communications Technologies (DTIC)! You can ask me about the department and its groups and programs. I can also help you find the groups and office number of people you're looking for. How can I assist you?"
 
   utter_cheer_up:
     - text: "Here is something to cheer you up:"

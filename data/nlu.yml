@@ -126,6 +126,14 @@ nlu:
       - does [ANDERS](teacher_name) teach here?
       - does [JORDI](teacher_name) have an office here?
       - is [JEROME](teacher_name) teaching here?
+      - i'm looking for [jorge](teacher_name).
+      - where is [leo](teacher_name)?
+      - where is [leo](teacher_name)'s office?
+      - do you know where I can find [leo](teacher_name)?
+      - how do I get to [leo](teacher_name)'s office?
+      - how can I meet with [leo](teacher_name).
+      - I have a meeting with [leo](teacher_name).
+      - I'm meeting with [leo](teacher_name).
       - is [MARIUS](teacher_name) a part of the staff?
       - tell me more about [MARIA](teacher_name).
       - tell me about [MARIA](teacher_name).
