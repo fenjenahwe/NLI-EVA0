@@ -5,6 +5,8 @@ var Chat = {
 
     response: null,
     stopaudio: null,
+    toggle: "voice",
+    textarea: document.querySelector("textarea"),
 
     init: function () {
         const record = document.querySelector("#mic");
@@ -13,15 +15,35 @@ var Chat = {
         const canvas = document.querySelector('.visualizer');
         const mainSection = document.querySelector('.main-controls');
         const xhr = new XMLHttpRequest();
+        // const tog = document.querySelector(".switch");
+        // const slid = document.querySelector("span");
+        // tog.addEventListener("click", function() {
+        //     if (slid.innerHTML == "Audio Channel Enabled")
+        //         {   
+        //             // slid.innerHTML = "Text Channel Enabled";
+        //             Chat.toggle = "text";
+        //         }
+        //     }); 
+
+        // tog.addEventListener("click", function() {
+        //     if (slid.innerHTML == "Text Channel Enabled")
+        //         {
+        //             // slid.innerHTML = "Audio Channel Enabled";
+        //             Chat.toggle = "voice";
+        //         }
+        //     }); 
 
         // disable stop button while not recording
         stop.disabled = true;
+        
 
         // visualiser setup - create web audio api context and canvas
         let audioCtx;
         const canvasCtx = canvas.getContext("2d");
         audioRecording();
-        
+        Chat.textarea.addEventListener("keydown", sendMsg.bind(this));
+
+
         function audioRecording() {
             //audio recording
             if (navigator.mediaDevices.getUserMedia) {
@@ -64,12 +86,29 @@ var Chat = {
                     
                 //to listen to your recording
                     const blob = new Blob(chunks, { 'type' : 'audio/wav' });
-            
+                    
+                    //send blob to server
+                    sendToServer(blob);
+
+                    chunks = [];
+                }
+
+                sendToServer = function(e) {
                     //const xhr = new XMLHttpRequest();
-                    xhr.open("POST", "http://127.0.0.1:8000/transcribe", true);
-                    xhr.setRequestHeader("Content-Type", "audio/wav");
-                    xhr.send(blob);
-                
+                    if (e instanceof Blob)
+                    {
+                        xhr.open("POST", "http://127.0.0.1:8000/transcribe", true);
+                        xhr.setRequestHeader("Content-Type", "audio/wav");
+                        xhr.send(e);
+                    }
+
+                    if (typeof e == 'string')
+                    {
+                        xhr.open("POST", "http://127.0.0.1:8000/text", true);
+                        xhr.setRequestHeader("Content-Type", "text/plain");
+                        xhr.send(e);
+                    }
+                    
                     xhr.onreadystatechange = function() {
                     if (xhr.readyState === XMLHttpRequest.DONE) {
                         if (xhr.status === 200) {
@@ -81,8 +120,9 @@ var Chat = {
                         console.log(responseData.lang);
                         console.log(responseData.response_transcription);
                         console.log(responseData.audio_path);
-            
-                        showPrompt();
+                        
+                        if(e instanceof Blob)
+                            showPrompt();
                         
                         // const msg = new SpeechSynthesisUtterance(responseData.response_transcription);
                         // let synth = window.speechSynthesis;
@@ -107,13 +147,8 @@ var Chat = {
                             Chat.response = null;
                             }); 
                         
-                        if (responseData.response_transcription.includes("cheer"))
-                            {
-                                const imgcont = document.querySelector("#image");
-                                var img = document.createElement("img");
-                                img.src = "./images/cheerup.jpeg";
-                                imgcont.appendChild(img);
-                            }
+                        renderResponseImg();
+                    
                         audio.addEventListener("ended", function() {
                         Chat.response = null;
                         okthx.style.display = "none";
@@ -127,7 +162,6 @@ var Chat = {
                         }
                     }
                     };
-                    chunks = [];
                 }
             
                 mediaRecorder.ondataavailable = function(e) {
@@ -147,12 +181,6 @@ var Chat = {
             }
     
         };
-
-        // function textPrompt() {
-        //     const textarea = document.querySelector("textarea");
-        //     textarea.addEventListener("keydown", inputText.bind(this)); // send message on Enter
-        //     this.sendButton.onclick = this.inputText.bind(this); // send message on "send" button click
-        // }
         
         function visualize(stream) {
             if(!audioCtx) {
@@ -213,7 +241,10 @@ var Chat = {
             const container = document.querySelector("#container")
             var prompt = document.createElement("div");
             prompt.className = "prompt";
-            prompt.innerHTML = "you: "+Chat.response.query_transcription;
+            if (Chat.toggle == "voice")
+                prompt.innerHTML = "you: "+Chat.response.query_transcription;
+            if (Chat.toggle == "text")
+                prompt.innerHTML = "you: "+Chat.textarea.value;
             container.appendChild(prompt);
             container.scrollTop = 1000000;
         };
@@ -226,6 +257,92 @@ var Chat = {
             container.appendChild(res);
             container.scrollTop = 1000000;
         }
+
+        function renderResponseImg() {
+            txt = Chat.response.response_transcription;
+            const imgcont = document.querySelector("#image");
+            var img = document.createElement("img");
+
+            if (txt.includes("cheer")) {
+                img.src = "./images/cheerup.jpeg";
+            }
+
+            if (txt.includes("510"))
+            {
+                img.src = "./images/510.png";
+            }
+
+            if (txt.includes("511"))
+            {
+                img.src = "./images/511.png";
+            }
+
+            if (txt.includes("550"))
+            {
+                img.src = "./images/550.png";
+            }
+
+            if (txt.includes("551"))
+            {
+                img.src = "./images/551.png";
+            }
+
+            if (txt.includes("552"))
+            {
+                img.src = "./images/552.png";
+            }
+
+            if (txt.includes("553"))
+            {
+                img.src = "./images/553.png";
+            }
+
+            if (txt.includes("554"))
+            {
+                img.src = "./images/554.png";
+            }
+
+            if (txt.includes("cafeteria"))
+            {
+                img.src = "./images/cafeteria.png";
+            }
+
+            if (txt.includes("library"))
+            {
+                img.src = "./images/Library.png";
+            }
+
+            if (txt.includes("reception"))
+            {
+                img.src = "./images/reception.png";
+            }
+
+            imgcont.appendChild(img);
+
+            // if (Chat.response.response_transcription.includes("map") || Chat.response.response_transcription.includes("building")) {
+            //     const imgcont = document.querySelector("#image");
+            //     var img = document.createElement("img");
+            //     img.src = "./images/mapa-poblenou.png";
+            //     imgcont.appendChild(img);
+            // }
+            
+        }
+
+
+        function sendMsg(event) {
+            if (event.key === "Enter" && event.shiftKey) {
+                return;
+              } else if (event.key === "Enter") {
+                event.preventDefault();
+                const imgcont = document.querySelector("#image");
+                    if (imgcont.children.length!=0)
+                        imgcont.removeChild(imgcont.firstElementChild)
+                Chat.toggle = "text";
+                showPrompt();
+                sendToServer(Chat.textarea.value);
+                Chat.textarea.value = '';
+        }
+    }
 
         window.onresize = function() {
             canvas.width = mainSection.offsetWidth;

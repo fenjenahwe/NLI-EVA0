@@ -23,17 +23,17 @@ body {
 
 #image {
   position:absolute;
-  bottom: 35%;
+  bottom: 18%;
   left: 7%;
   /* border: 1px solid red; */
-  height: 200px;
-  width:200px;
+  height: 400px;
+  width:400px;
 }
 
 img {
   height: auto; 
   width: auto; 
-  max-width: 300px; 
+  max-width: 400px; 
   max-height: 400px;
 }
 
@@ -161,7 +161,11 @@ border-radius: 1em;
 
 .buttons {
   margin-top:20px;
-  height: 150px;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 #msginput {
@@ -173,7 +177,7 @@ border-radius: 1em;
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #a61eff;
+  background-color: DodgerBlue;
   height: auto;
   border-radius: 1em;
 }
@@ -191,8 +195,6 @@ border-radius: 1em;
   font-size: 11pt;
   white-space: normal;
   border-radius: 5px;
-  font-family: "silkscreenfonth3";
-  color:green;
   width: calc(100% - 60px);
   border: none;
 }
@@ -249,10 +251,8 @@ border-radius: 1em;
 /* Rounded sliders */
 .switch {
   position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
-  vertical-align: middle;
+  width: 40%;
+  text-align: center;
 }
 
 .switch input { 
@@ -264,6 +264,7 @@ border-radius: 1em;
 .slider {
   position: absolute;
   cursor: pointer;
+  width: 120px;
   top: 0;
   left: 0;
   right: 0;
@@ -276,8 +277,8 @@ border-radius: 1em;
 .slider:before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
+  /* height: 26px;
+  width: 26px; */
   left: 4px;
   bottom: 4px;
   background-color: white;
@@ -302,8 +303,30 @@ input:checked + .slider:before {
 /* Rounded sliders */
 .slider.round {
   border-radius: 34px;
+  color: white;
+  font-size: 10pt;
+  width: 100%;
+  display: inline-block;
+  margin: 0;
+  padding: 5px 10px
 }
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+.currentmessage::-webkit-input-placeholder {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.currentmessage:-ms-input-placeholder {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.currentmessage:-moz-placeholder {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.currentmessage::-moz-placeholder {
+  font-family: Helvetica, Arial, sans-serif;
 }

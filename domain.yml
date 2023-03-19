@@ -36,6 +36,7 @@ intents:
   - get_dept_director
   - get_map
   - general_info
+  - reception_info
 
 entities:
   - teacher_name
@@ -53,13 +54,17 @@ slots:
 
 responses:
   utter_cafeteria_information:
-    - text: "The cafeteria is located in the basement of the Roc Boronat building, number 52. It's opened from 8 a.m. to 8 p.m."
+    - text: "The cafeteria is located in the basement of the Roc Boronat building, number 52. It's open from 8 a.m. to 8 p.m."
 
   utter_location:
     - text: "You are currently in the Tanger building, number 55, of the Poblenou Campus of the UPF. This building is open weekdays from 8 am to 10 pm."
 
+  utter_reception_information:
+    - text: "The campus reception is located at the ground floor of the Roc Boronat building, number 52. It's open weekdays from 11 a.m. to 2 p.m. and from 3 p.m. to 6 p.m."
+
+
   utter_general_info:
-    - text: "You can ask me about the department itself, information about the groups in the DTIC and their directors, information about specific people in the DTIC. You can also ask me about places like the library and the cafeteria. If you're lost, I can provide you with a map."
+    - text: "You can ask me about the department itself, information about the groups in the DTIC and their directors, information about specific people in the DTIC. You can also ask me about places like the library and the cafeteria. If you're lost, I can provide you with a map. If you need to know the weather, just ask!"
 
   utter_map:
     - text: "Here is a map of the UPF Poblenou Campus for you. You are currently in the Tanger building, number 55."

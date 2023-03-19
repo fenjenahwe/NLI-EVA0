@@ -100,3 +100,52 @@ async def transcribe(request: Request):
     response_json = jsonable_encoder(response_data)
 
     return response_json
+
+@app.post("/text")
+async def text(request: Request):
+    print("hello")
+    content_type = request.headers.get("Content-Type")
+    if not content_type.startswith("text/"):
+        raise HTTPException(status_code=400, detail="Invalid Content-Type")
+    # Contact RASA
+    headers = {
+        'Content-Type': 'text/plain',
+    }
+    bit = await request.body()
+    txt = bit.decode('utf-8')
+    json_data = {
+        'sender': 'test_user',
+        'message': txt,
+        'input_channel': 'rest',
+        'metadata': {},
+    }
+
+    response = requests.post('http://localhost:5005/webhooks/rest/webhook', headers=headers, json=json_data)
+    print("response", response)
+
+    # TTS
+    text = response.text
+    print("text", text)
+    text = re.search("(?<=text\":\")(.*?)(?=\")", text).group()
+    print(text)
+    # if lang != 'en':
+    #     # TRANSLATION
+    #     text = GoogleTranslator(source='auto', target=lang).translate(text)
+    # tts = gTTS(text, lang=lang)
+    tts = gTTS(text)
+
+    rand = random.randint(0, 9)
+    prefix = "./website/src/response{}".format(rand)
+    randletter = random.choice(string.ascii_letters)
+    suffix = "{}.mp3".format(randletter)
+    # filepath = "./website/src/response{}.mp3".format(rand)
+    filepath = prefix + suffix
+    tts.save(filepath)
+    # playsound.playsound('response.mp3', True)
+
+    response_data = MyResponse(query_transcription=txt, lang='', response_transcription=text,
+                               audio_path=filepath, rand=rand, randletter=randletter)
+    response_json = jsonable_encoder(response_data)
+
+    return response_json
+

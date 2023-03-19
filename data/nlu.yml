@@ -286,6 +286,8 @@ nlu:
       - Tell me about the undergraduate majors of the department.
       - I would like to know about undergrad studies here.
       - How many bachelor programs do you offer?
+      - Can you tell me about the bachelor degrees?
+      - tell me more about the  bachelor degrees
 
   - intent: list_msc
     examples: |
@@ -298,6 +300,8 @@ nlu:
       - I would like to know about grad studies here.
       - How many masters programs do you offer?
       - is there a masters of science?
+      - can you tell me about the master degrees?
+      - tell me more about the master's degrees
 
   - intent: find_degree_info
     examples: |
@@ -428,5 +432,17 @@ nlu:
       - remind me what i can ask you
       - what info can you show me
       - how much do you know
+
+  - intent: reception_info
+    examples: |
+      - where is the reception of this campus?
+      - where can i find the help desk
+      - where is the student desk
+      - where can i find the student affairs
+      - where is the main entrance of the campus
+      - where is the secretariat of the campus
+      - where can i find the reception?
+      - how do i get to the reception?
+      
       
       

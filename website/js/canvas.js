@@ -147,11 +147,11 @@ function init()
 			{	
 				anim = animations.waving;
 			}
-			else if(res.response_transcription.includes("teaching staff"))
-			{
-				anim = animations.headnod;
-			}
-			else if(res.response_transcription.includes("cheer") || res.response_transcription.includes("is a map"))
+			// else if(res.response_transcription.includes("teaching staff"))
+			// {
+			// 	anim = animations.headnod;
+			// }
+			else if(res.response_transcription.includes("cheer") || res.response_transcription.includes("is a map") || res.response_transcription.includes("building") || res.response_transcription.includes("office"))
 			{
 				anim = animations.pointing;
 			}

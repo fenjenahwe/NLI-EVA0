@@ -26,15 +26,16 @@
   <div class="buttons">
     <button id="mic" class="btn"><i class="fa fa-microphone" aria-hidden="true"></i></button>
     <button id="stoprec" class="btn">Stop</button>
-    <label class="switch">
+    <label class="switch" style="display: none">
       <input type="checkbox" checked>
-      <span class="slider round"></span>
+      <span class="slider round">Audio Channel Enabled</span>
     </label>
+    
+  <!-- <button class="btn"><i class="fa fa-bars"></i></button> -->
+    </div>
     <section class="main-controls">
       <canvas class="visualizer" height="60px" width="80%"></canvas>
     </section>
-  <!-- <button class="btn"><i class="fa fa-bars"></i></button> -->
-    </div>
     <div id="msginput">
       <textarea
         class="currentmessage"

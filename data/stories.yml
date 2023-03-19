@@ -141,3 +141,8 @@ stories:
     steps:
       - intent: general_info
       - action: utter_general_info
+
+  - story: ask about reception info
+    steps:
+      - intent: reception_info
+      - action: utter_reception_info
