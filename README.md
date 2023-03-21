@@ -44,32 +44,8 @@ Run a local server:
 visit http://localhost:port/ to access the interface and finally interact with EVA!
 
 
-### libraries 
+### avatar
 
-*For your reference, the libraries used in the python server include:
+The 3D avatar used was downloaded and rigged from https://www.mixamo.com/#/?page=1&type=Character
 
-whisper
-
-requests
-
-from fastapi import FastAPI, Request, HTTPException
-
-from fastapi.encoders import jsonable_encoder
-
-from pydantic import BaseModel
-
-from io import BytesIO
-
-from pydub import AudioSegment
-
-from pydub.utils import which
-
-from fastapi.middleware.cors import CORSMiddleware
-
-from gtts import gTTS
-
-re
-
-playsound
-
-from deep_translator import GoogleTranslator
+Javi Agenjo's libraries (LiteGL and Rendeer) were used for the 3D canvas.  
