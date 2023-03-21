@@ -1,33 +1,48 @@
 # NLI-EVA
-Open website folder and then open index.html for the interface. Before you get started, you need to get some servers running:
 
-//RASA ACTIONS
+Before you get started, you need to get some servers running:
 
-rasa run actions (for actions server)
+# Rasa actions
 
-//RASA SERVER + WEBHOOK
+Run this command in the folder:
+rasa run actions
 
-rasa run -m models --enable-api -p 5055 --cors "*" --credentials credentials.yml (for the rasa server + webhook)
+# Rasa chatbot
 
-//PYTHON SERVER INTERFACE-RASA
+A pretrained model is provided. You can always retrain according to edits by running:
 
-uvicorn pyserver:app --reload (for the python server linking everything together)
+rasa train
 
-//INTERFACE
+Run this command to get the Rasa server running:
 
-//(commands for macs)
+rasa run -m models --enable-api -p 5055 --cors "*" --credentials credentials.yml
 
-install sudo npm install -g http-server and run: http-server
-this will run a local server at a port > visit http://localhost:port/ to access the interface and finally interact with EVA!
+# Python server (interface-rasa)
+
+Install the libraries needed in the pyserver.py* file and run this command (macos) to get the python server running:
+
+uvicorn pyserver:app --reload
+
+# Interface
+
+(commands for macos)
+
+install sudo npm install -g http-server 
+
+Run a local server: 
+
+http-server
+
+visit http://localhost:port/ to access the interface and finally interact with EVA!
 
 
-For the last one, you will probably need to install some libraries, including uvicorn and others which you may need and you can check them by looking at what is imported in the pyserver.py file. 
+# libraries 
 
-For your reference, those are the libraries used in this server, some of which you may need to download:
+*For your reference, the libraries used in the python server include:
 
-import whisper
+whisper
 
-import requests
+requests
 
 from fastapi import FastAPI, Request, HTTPException
 
@@ -45,8 +60,8 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from gtts import gTTS
 
-import re
+re
 
-import playsound
+playsound
 
 from deep_translator import GoogleTranslator

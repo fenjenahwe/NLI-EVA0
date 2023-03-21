@@ -79,7 +79,7 @@ async def transcribe(request: Request):
     #TTS
     text = response.text
     print("text", text)
-    text = re.search("(?<=text\":\")(.*?)(?=\")", text).group()
+    text = re.search("(?<=text\":\")(.*?)(?=\")", text).group().replace("\\", "")
     print(text)
     if lang != 'en':
         # TRANSLATION
@@ -103,7 +103,7 @@ async def transcribe(request: Request):
 
 @app.post("/text")
 async def text(request: Request):
-    print("hello")
+    # print("hello")
     content_type = request.headers.get("Content-Type")
     if not content_type.startswith("text/"):
         raise HTTPException(status_code=400, detail="Invalid Content-Type")
