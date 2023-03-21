@@ -49,3 +49,7 @@ visit http://localhost:port/ to access the interface and finally interact with E
 The 3D avatar used was downloaded and rigged from https://www.mixamo.com/#/?page=1&type=Character
 
 Javi Agenjo's libraries (LiteGL and Rendeer) were used for the 3D canvas.  
+
+### Weather API
+
+To access the weather API, provide your API key in the ActionGetCurrWeather.py file.
