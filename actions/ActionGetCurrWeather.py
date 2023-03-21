@@ -28,7 +28,7 @@ class ActionCheckExistence(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         try:
-            response = requests.get("http://api.worldweatheronline.com/premium/v1/weather.ashx?key=240bdd0c8b944257bc4184710231703&q=Barcelona&format=json").json()
+            response = requests.get("http://api.worldweatheronline.com/premium/v1/weather.ashx?key= ENTER KEY HER&q=Barcelona&format=json").json()
 
             weather_code = response["data"]["current_condition"][0]["weatherCode"]
             temperature = response["data"]["current_condition"][0]["temp_C"]
